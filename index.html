@@ -107,6 +107,7 @@
             
             /* Layout Constraints */
             --container-width: 90%;
+            --container-nav-width: 100%;
             --container-max-width: 1200px;
             --intro-container-max-width: 1000px;
             --portfolio-container-max-width: 800px;
@@ -170,6 +171,14 @@
             text-align: left;
         }
         
+               /* Reduce line spacing of paragraph text in mobile mode */
+        @media (max-width: 768px) {
+        p {
+            line-height: 1.5;
+        }
+        }
+}
+        
         p.caption {
             font-size: var(--font-size-caption);
             color: var(--color-caption);
@@ -199,10 +208,27 @@
             width: var(--container-width);
             max-width: var(--container-max-width);
             margin: 0 auto;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .banner-container {
+            width: var(--container-width);
+            max-width: var(--container-max-width);
+            margin: 0 auto;
             padding: var(--spacing-xl) 0;
             position: relative;
             z-index: 2;
         }
+        
+       /* Make banner container shorter mobile mode */
+        @media (max-width: 768px) {
+         .banner-container {
+            padding: var(--spacing-lg) 0;
+        }
+}
         
         .intro-container {
             width: var(--container-width);
@@ -212,6 +238,14 @@
             position: relative;
             z-index: 2;
         }
+        
+        
+         /* Make intro container have more top margin in mobile mode */
+        @media (max-width: 768px) {
+         .intro-container {
+            padding-top: 70px;
+        }
+}
 
 
         /* ==========================================================================
@@ -246,6 +280,17 @@
             font-weight: var(--font-weight-normal);
         }
         
+        /* Make separator in logo go away in mobile mode */
+        @media (max-width: 768px) {
+    .separator {
+        display: none;
+    }
+    .logo .lighttext {
+        display: inline-block;
+        margin-left: 0;
+    }
+}
+        
         /* Mobile Navigation Elements */
         .mobile-only {
             display: none;
@@ -263,14 +308,21 @@
             flex-direction: column;
             position: absolute;
             top: var(--spacing-header);
-            left: 0;
-            background-color: var(--color-bg-accent);
-            width: 100%;
+            right: 0;
+            background-color: var(--color-bg-light);
+            width: 300px;
             align-items: center;
-            padding: var(--spacing-lg) 0;
-            box-shadow: var(--shadow-card);
+            padding: var(--spacing-xl) 0;
             animation: slideDown var(--transition-smooth);
         }
+        
+        @media (max-width: 768px) {
+        .nav-menu.active {
+          position: fixed; /* Instead of absolute */
+          width: 100vw; /* Full viewport width */
+        }  
+        }
+        
         
         .nav-menu li {
             padding: var(--spacing-sm) 0;
@@ -279,12 +331,12 @@
         .nav-menu a {
             text-decoration: none;
             color: var(--color-primary);
-            font-weight: var(--font-weight-medium);
+            font-weight: var(--font-weight-bold);
             transition: color var(--transition-fast);
         }
         
         .nav-menu a:hover {
-            color: var(--color-accent);
+            text-decoration: underline;
         }
         
         /* Hamburger Menu Animation */
@@ -384,6 +436,11 @@
             position: relative;
         }
         
+        .section-spacer {
+      height: 20px;
+      background: none;
+}
+        
         .overlay {
             position: absolute;
             top: 0;
@@ -400,8 +457,8 @@
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-            margin-top: var(--spacing-xxl);
-            gap: var(--spacing-lg);
+            margin-top: var(--spacing-lg);
+            gap: var(--spacing-m);
         }
         
         .service-box {
@@ -835,11 +892,12 @@
          ========================================================================== -->
     
     <header>
-        <div class="container">
+        <div class="banner-container">
             <nav>
-                <a href="#intro" class="logo" aria-label="Willem Boning Acoustical Consultant - Home">
-                    Willem Boning<br class="mobile-only"><span class="lighttext"> | Acoustical Consultant</span>
-                </a>
+<a href="#intro" class="logo" aria-label="Willem Boning Acoustical Consultant - Home">
+    Willem Boning<br class="mobile-only">
+    <span class="separator"> | </span><span class="lighttext">Acoustical Consultant</span>
+</a>
                 
                 <ul class="nav-menu" role="navigation" aria-label="Main navigation">
                     <li><a href="#intro">Home</a></li>
@@ -870,13 +928,16 @@
         <div class="intro-container">
             <h1>Expert design advice from the sound up.</h1>  
             <p>I help architects, business owners and community organizations create sonically welcoming spaces. In projects big and small, I go beyond solving noise problems, working to <b>add acoustical value</b> to the design.</p>
-            <a href="#get-started" class="btn">Tell me about your project!</a>
+            <a href="#get-started" class="btn">How can I help you?</a>
         </div>
+
     </section>
 
 
     <!-- Services Section -->
     <section id="services">
+        <div class ="section-spacer">
+        </div>
         <div class="container">
             <h2>Services</h2>
             <p>I consult on all aspects of sound in the built environment, from room acoustics to sound isolation to mechanical and environmental noise control. Here are three ways I can help you:</p>
@@ -915,9 +976,9 @@
                 
                 <div class="about-text">
                     <p>Hi, I'm Willem!</p>
-                    <p>After 10+ years cutting my teeth at Arup, a top engineering firm in NYC, I returned to my home country of Canada to start my own acoustical consulting practice. I've helped diverse clients create great sounding spaces around the world, from tech companies building their new headquarters to architects designing daring performing arts centers, to small business owners (including my own barber!) upgrading their shops to be more calm and welcoming to patrons.</p>
-                    <p>With a background in architectural design and over ten years of experience guiding projects from the earliest concept sketches through the final construction punchlist, I offer practical knowledge as well as technical expertise. I'm especially passionate about working on projects with a community focus and strong sustainability goals.</p>
-                    <p>I am based in Winnipeg, Canada but travel often to NYC and provide consulting services across Canada, the United States and worldwide.</p>
+                    <p>After ten years cutting my teeth at Arup, a world-renowned engineering firm in NYC, I returned to my home country of Canada to start my own acoustical consulting practice. I've helped diverse clients create great sounding spaces around the world, from tech companies building their new headquarters to architects designing innovative concert venues, to small business owners (including my own barber!) upgrading their spaces to be more calm and welcoming.</p>
+                    <p>With a background in architectural design and over a decade guiding projects from concept sketch to final punchlist, I offer practical experience as well as technical expertise.</p>
+                    <p>I'm based in Winnipeg, Canada but travel to NYC often and provide consulting services across Canada, the United States and worldwide.</p>
                 </div>
             </div>
         </div>
@@ -935,6 +996,8 @@
 
     <!-- Portfolio Section -->
     <section id="portfolio">
+    <div class ="section-spacer">
+        </div>
         <div class="container">
             <h2>Featured Projects</h2>
             
@@ -1020,8 +1083,8 @@
                         <div class="portfolio-content-inner">
                             <div class="image-carousel">
                                 <div class="carousel-container" role="region" aria-label="Restaurant portfolio images">
-                                    <div class="carousel-slide">
-                                        <img src="Osterling_01_credit-WillemBoning.JPG" alt="Rafael Osterling restaurant interior">
+                                      <div class="carousel-slide">
+                                        <img src="Osterling_04_credit-WillemBoning.JPG" alt="Restaurant acoustic installation">
                                     </div>
                                     <div class="carousel-slide">
                                         <img src="Osterling_03_credit-WillemBoning.JPG" alt="Restaurant dining area">
@@ -1029,9 +1092,7 @@
                                     <div class="carousel-slide">
                                         <img src="Osterling_diagram_credit-WillemBoning.jpg" alt="Restaurant acoustic treatment diagram">
                                     </div>
-                                    <div class="carousel-slide">
-                                        <img src="Osterling_04_credit-WillemBoning.JPG" alt="Restaurant acoustic installation">
-                                    </div>
+
                                     <button class="carousel-button prev" aria-label="Previous image">&#10094;</button>
                                     <button class="carousel-button next" aria-label="Next image">&#10095;</button>
                                 </div>
@@ -1181,6 +1242,8 @@
 
     <!-- Testimonials Section -->
     <section id="testimonials">
+    <div class ="section-spacer">
+        </div>
         <div class="container">
             <h2>Testimonials</h2>
             <div class="testimonial-container">
@@ -1220,16 +1283,20 @@
     <section id="get-started">
         <div class="container">
             <h2>Let's Get Started</h2>
-            <p>Let's work together to build  Click below to tell me more about your project and I'll be in touch.</p>
+            <p>Click below to tell me how you'd like my help and I'll be in touch.</p>
             
             <div style="text-align: center;">
-                <a href="https://forms.gle/xNLdSX8rphcLNkfe8" class="btn" target="_blank" rel="noopener">Tell me about your project</a>
+                <a href="https://forms.gle/pMivuTUEFkA3d7G77" class="btn" target="_blank" rel="noopener">How can I help you?</a>
             </div>
+
+        </div>
+        <div class="section-spacer">
+        </div>
+                            <div class="container">
+            <p>Questions? Contact me at <a href="mailto:willem@fromthesoundup.com">willem@fromthesoundup.com</a></p>
         </div>
 
-        <div class="container">
-            <p>Any questions? Contact me at <a href="mailto:willem@fromthesoundup.com">willem@fromthesoundup.com</a></p>
-        </div>
+
     </section>
 
 
