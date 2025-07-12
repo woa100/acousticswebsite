@@ -1,0 +1,1650 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Willem Boning provides building acoustical consulting services based in Winnipeg Canada to clients in Canada, the United States and worldwide. Willem specializes in noise control, reverberation control, soundproofing, sound dampening and environmental noise with experience in commercial spaces, offices, retail, restaurants, live music venues, worship spaces and cultural spaces.">
+    <meta name="keywords" content="acoustics, noise control, soundproofing, sound dampening, acoustical consulting, acoustics, reverberation control, noise mitigation, architectural acoustics, environmental noise, sound isolation, building acoustics, vibration control, acoustic panels, sound masking, speech privacy, echo reduction">
+    <meta name="author" content="Willem Boning | Acoustical Consultant">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Willem Boning | Acoustical Consultant">
+    <meta property="og:description" content="Expert design advice from the sound up.">
+    <meta property="og:image" content="https://www.fromthesoundup.com/og-image.jpg">
+    <meta property="og:url" content="https://www.fromthesoundup.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Willem Boning | Acoustical Consultant">
+    <meta name="twitter:description" content="Expert design advice from the sound up.">
+    <meta name="twitter:image" content="https://www.fromthesoundup.com/twitter-image.jpg">
+
+    <title>Willem Boning | Acoustical Consultant</title>
+    
+    <style>
+        /* ==========================================================================
+           CSS CUSTOM PROPERTIES (VARIABLES)
+           ========================================================================== */
+        
+        :root {
+            /* Primary Color Palette */
+            --color-primary: #0a1a2f;              /* Dark blue text */
+            --color-bg-light: #f5f5f5;             /* Light gray background */
+            --color-bg-accent: #e6eef5;            /* Light blue background */
+            --color-accent: #3a6ea5;               /* Accent blue */
+            --color-white: #ffffff;
+            --color-caption: #696969;              /* Gray caption text */
+            --color-border: #ddd;                  /* Light border */
+            
+            /* Interactive Element Colors */
+            --color-btn-bg: #292929;               /* Dark button background */
+            --color-btn-text: #e3e3e3;             /* Light button text */
+            --color-btn-hover: #404040;            /* Button hover state */
+            --color-hover-bg: #f9fafc;             /* Light hover background */
+            
+            /* Overlay & Shadow Colors */
+            --overlay-light: rgba(230, 238, 245, 0.6);
+            --overlay-medium: rgba(230, 238, 245, 0.5);
+            --shadow-light: rgba(0, 0, 0, 0.1);
+            --shadow-medium: rgba(0, 0, 0, 0.5);
+            --shadow-dark: rgba(0, 0, 0, 0.8);
+            
+            /* Typography System */
+            --font-primary: Arial, sans-serif;
+            --font-weight-light: 300;
+            --font-weight-normal: 400;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 600;
+            --font-weight-bold: 700;
+            
+            /* Font Size Scale */
+            --font-size-h1: 3.2rem;
+            --font-size-h2: 2.5rem;
+            --font-size-h3: 1.8rem;
+            --font-size-h4: 1.1rem;
+            --font-size-base: 1rem;
+            --font-size-small: 0.9rem;
+            --font-size-caption: 0.7rem;
+            --font-size-logo: 1.5rem;
+            --font-size-featured: 1.7rem;
+            
+            /* Spacing Scale */
+            --spacing-xs: 5px;
+            --spacing-sm: 10px;
+            --spacing-md: 15px;
+            --spacing-lg: 20px;
+            --spacing-xl: 30px;
+            --spacing-xxl: 40px;
+            --spacing-3xl: 60px;
+            --spacing-header: 70px;
+            
+            /* Border Radius Scale */
+            --radius-sm: 5px;
+            --radius-md: 8px;
+            --radius-lg: 10px;
+            --radius-full: 50%;
+            
+            /* Animation & Transition System */
+            --transition-fast: 0.3s ease;
+            --transition-smooth: 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smooth dropdown animation */
+            --transition-medium: 0.6s ease-in-out;
+            --transform-hover: translateY(-7px);
+            --transform-service-hover: translateY(-10px);
+            
+            /* Shadow System */
+            --shadow-header: 0 2px 15px var(--shadow-light);
+            --shadow-card: 0 5px 15px var(--shadow-light);
+            
+            /* Layout Constraints */
+            --container-width: 90%;
+            --container-max-width: 1200px;
+            --intro-container-max-width: 1000px;
+            --portfolio-container-max-width: 800px;
+        }
+
+
+        /* ==========================================================================
+           RESET & BASE STYLES
+           ========================================================================== */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        html { 
+            scroll-padding-top: var(--spacing-header); 
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            line-height: 1.6;
+            color: var(--color-primary);
+        }
+
+
+        /* ==========================================================================
+           TYPOGRAPHY SYSTEM
+           ========================================================================== */
+        
+        h1, h2, h3, h4 {
+            font-weight: var(--font-weight-bold);
+            margin-bottom: var(--spacing-lg);
+            line-height: 1.3;
+        }
+        
+        h1 {
+            font-size: var(--font-size-h1);
+        }
+        
+        h2 {
+            font-size: var(--font-size-h2);
+        }
+        
+        h3 {
+            font-size: var(--font-size-h3);
+        }
+        
+        h4 {
+            font-size: var(--font-size-h4);
+            font-weight: var(--font-weight-medium);
+            text-align: left;
+        }
+        
+        /* Paragraph & Text Styles */
+        p {
+            margin-bottom: var(--spacing-lg);
+            text-align: left;
+        }
+        
+        p.caption {
+            font-size: var(--font-size-caption);
+            color: var(--color-caption);
+        }
+        
+        /* Link Styles */
+        a {
+            color: black;
+            text-decoration: underline;
+            transition: color var(--transition-fast);
+        }
+        
+        a:hover {
+            color: rgba(0, 0, 0, 0.8);
+        }
+        
+        a:visited {
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+
+        /* ==========================================================================
+           LAYOUT & CONTAINER SYSTEM
+           ========================================================================== */
+        
+        .container {
+            width: var(--container-width);
+            max-width: var(--container-max-width);
+            margin: 0 auto;
+            padding: var(--spacing-xl) 0;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .intro-container {
+            width: var(--container-width);
+            max-width: var(--intro-container-max-width);
+            margin: 0 auto;
+            padding: var(--spacing-lg) 0;
+            position: relative;
+            z-index: 2;
+        }
+
+
+        /* ==========================================================================
+           HEADER & NAVIGATION SYSTEM
+           ========================================================================== */
+        
+        header {
+            background-color: var(--color-bg-light);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-header);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        /* Logo Styling */
+        .logo {
+            font-size: var(--font-size-logo);
+            font-weight: var(--font-weight-semibold);
+            color: var(--color-primary);
+            text-decoration: none;
+            transition: color var(--transition-fast);
+        }
+        
+        .logo .lighttext {
+            font-weight: var(--font-weight-normal);
+        }
+        
+        /* Mobile Navigation Elements */
+        .mobile-only {
+            display: none;
+        }
+        
+        .nav-menu {
+            display: none;
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        
+        .nav-menu.active {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: var(--spacing-header);
+            left: 0;
+            background-color: var(--color-bg-accent);
+            width: 100%;
+            align-items: center;
+            padding: var(--spacing-lg) 0;
+            box-shadow: var(--shadow-card);
+            animation: slideDown var(--transition-smooth);
+        }
+        
+        .nav-menu li {
+            padding: var(--spacing-sm) 0;
+        }
+        
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--color-primary);
+            font-weight: var(--font-weight-medium);
+            transition: color var(--transition-fast);
+        }
+        
+        .nav-menu a:hover {
+            color: var(--color-accent);
+        }
+        
+        /* Hamburger Menu Animation */
+        .hamburger {
+            display: block;
+            cursor: pointer;
+        }
+        
+        .hamburger div {
+            width: 25px;
+            height: 3px;
+            background-color: var(--color-primary);
+            margin: var(--spacing-xs);
+            transition: all var(--transition-fast);
+        }
+
+        /* Mobile menu slide animation */
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+        /* ==========================================================================
+           BUTTON SYSTEM
+           ========================================================================== */
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--color-btn-bg);
+            color: var(--color-btn-text) !important;
+            padding: 12px var(--spacing-xl);
+            margin-top: var(--spacing-lg);
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            font-weight: var(--font-weight-light);
+            transition: all var(--transition-fast);
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: var(--color-btn-hover);
+            transform: translateY(-2px);
+        }
+
+
+        /* ==========================================================================
+           SECTION LAYOUTS
+           ========================================================================== */
+        
+        section {
+            padding: var(--spacing-md) 0;
+        }
+
+
+        /* Hero/Intro Section */
+        #intro {
+            background: url('Lamusique.jpg') no-repeat center center/cover;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--overlay-light);
+            z-index: 1;
+        }
+
+
+        /* Services Section */
+        #services {
+            background-color: var(--color-bg-light);
+        }
+        
+        .services-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: var(--spacing-xxl);
+            gap: var(--spacing-lg);
+        }
+        
+        .service-box {
+            background-color: var(--color-white);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-card);
+            padding: var(--spacing-xl);
+            width: calc(33.33% - var(--spacing-lg));
+            margin-bottom: 0;
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+        }
+        
+        .service-box:hover {
+            transform: var(--transform-service-hover);
+            box-shadow: 0 8px 25px var(--shadow-light);
+        }
+        
+        .service-box h3 {
+            text-align: center;
+            margin-bottom: var(--spacing-md);
+        }
+
+
+        /* About Section */
+        #about {
+            background-color: var(--color-bg-light);
+        }
+        
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xxl);
+        }
+        
+        .about-img {
+            flex: 1;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: transform var(--transition-fast);
+        }
+        
+        .about-img:hover {
+            transform: scale(1.02);
+        }
+        
+        .about-img img {
+            width: 100%;
+            display: block;
+        }
+        
+        .about-img figcaption {
+            font-size: 0.8rem;
+            text-align: left;
+            padding: var(--spacing-xs) 0 var(--spacing-xs) var(--spacing-xs);
+            font-weight: var(--font-weight-medium);
+            background-color: #f0f4f8;
+        }
+        
+        .about-text {
+            flex: 1;
+        }
+
+
+        /* Featured Quote & Project Sections */
+        #featured-project,
+        #featured-quote {
+            position: relative;
+            padding: var(--spacing-3xl) 0;
+            overflow: hidden;
+        }
+
+        #featured-project {
+            background: url('tfctest.jpg') no-repeat center center/cover;
+        }
+
+        #featured-quote {
+            background: url('filmfest_talk.jpeg') no-repeat center center/cover;
+        }
+
+        #featured-project::before,
+        #featured-quote::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--overlay-medium);
+            z-index: 1;
+        }
+
+        .featured-project-inner,
+        .featured-quote-inner {
+            position: relative;
+            z-index: 2;
+            text-align: left;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        .featured-project-inner p,
+        .featured-quote-inner p {
+            font-size: var(--font-size-featured);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-primary);
+            line-height: 1.3;
+            text-align: left;
+        }
+
+        .featured-project-inner p2,
+        .featured-quote-inner p2 {
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-light);
+            color: var(--color-primary);
+            line-height: 1.3;
+            text-align: left;
+        }
+
+
+        /* Get Started Section */
+        #get-started {
+            background-color: var(--color-bg-light);
+        }
+
+
+        /* ==========================================================================
+           ACCORDION COMPONENT SYSTEM (Portfolio & Testimonials)
+           ========================================================================== */
+        
+        /* Shared Accordion Styles */
+        #portfolio,
+        #testimonials {
+            background-color: var(--color-bg-light);
+        }
+        
+        #testimonials {
+            text-align: left;
+        }
+        
+        .portfolio-container,
+        .testimonial-container {
+            max-width: var(--portfolio-container-max-width);
+            margin: 0 auto;
+        }
+        
+        .portfolio-container {
+            background-color: var(--color-bg-light);
+        }
+        
+        /* Accordion Item Styling */
+        .portfolio-item,
+        .testimonial-item {
+            margin-bottom: var(--spacing-md);
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+            transition: transform var(--transition-fast);
+        }
+        
+        .portfolio-item:hover,
+        .testimonial-item:hover {
+            transform: var(--transform-hover);
+        }
+        
+        /* Accordion Header Styling */
+        .portfolio-header,
+        .testimonial-header {
+            background-color: var(--color-white);
+            padding: var(--spacing-md);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            text-align: left;
+            font-weight: var(--font-weight-medium);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color var(--transition-fast);
+            user-select: none; /* Prevent text selection on click */
+        }
+        
+        .portfolio-header:hover,
+        .testimonial-header:hover {
+            background-color: var(--color-hover-bg);
+        }
+        
+        /* Arrow Animation */
+        .portfolio-header .arrow,
+        .testimonial-header .arrow {
+            transition: transform var(--transition-smooth);
+        }
+        
+        .portfolio-header.active .arrow,
+        .testimonial-header.active .arrow {
+            transform: rotate(180deg);
+        }
+        
+        /* Smooth Accordion Content Animation */
+        .portfolio-content,
+        .testimonial-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height var(--transition-smooth), padding var(--transition-smooth);
+            background-color: var(--color-white);
+            border: 1px solid var(--color-border);
+            border-top: none;
+            border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+        }
+        
+        .portfolio-content-inner,
+        .testimonial-content-inner {
+            padding: var(--spacing-md);
+        }
+        
+        /* Testimonial-specific Styling */
+        .testimonial-name {
+            font-weight: var(--font-weight-light);
+            color: black;
+            text-align: right;
+        }
+
+
+        /* ==========================================================================
+           IMAGE CAROUSEL COMPONENT
+           ========================================================================== */
+        
+        .image-carousel {
+            margin-bottom: var(--spacing-lg);
+        }
+        
+        /* Carousel Container */
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            border-radius: var(--radius-sm);
+            margin-bottom: var(--spacing-md);
+        }
+        
+        /* Carousel Slides */
+        .carousel-slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transition: transform var(--transition-medium);
+            display: block;
+            left: 0;
+        }
+        
+        .carousel-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* Carousel Navigation Buttons */
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: var(--shadow-medium);
+            color: var(--color-white);
+            border: none;
+            font-size: 18px;
+            padding: var(--spacing-sm) var(--spacing-md);
+            cursor: pointer;
+            border-radius: var(--radius-full);
+            outline: none;
+            z-index: 10;
+            transition: all var(--transition-fast);
+        }
+        
+        .carousel-button:hover {
+            background-color: var(--shadow-dark);
+            transform: translateY(-50%) scale(1.1);
+        }
+        
+        .carousel-button.prev {
+            left: var(--spacing-sm);
+        }
+        
+        .carousel-button.next {
+            right: var(--spacing-sm);
+        }
+        
+        /* Carousel Indicators */
+        .carousel-indicators {
+            position: absolute;
+            bottom: var(--spacing-sm);
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 8px;
+            z-index: 10;
+        }
+        
+        .indicator {
+            width: var(--spacing-sm);
+            height: var(--spacing-sm);
+            border-radius: var(--radius-full);
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        
+        .indicator:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+            transform: scale(1.2);
+        }
+        
+        .indicator.active {
+            background-color: var(--color-white);
+        }
+
+
+        /* ==========================================================================
+           FOOTER
+           ========================================================================== */
+        
+        footer {
+            background-color: var(--color-primary);
+            color: var(--color-white);
+            text-align: center;
+            padding: var(--spacing-lg) 0;
+            font-size: var(--font-size-small);
+        }
+
+
+        /* ==========================================================================
+           RESPONSIVE DESIGN SYSTEM
+           ========================================================================== */
+        
+        @media screen and (max-width: 768px) {
+            /* Section Spacing Adjustments */
+            section {
+                padding: var(--spacing-sm) 0;
+            }
+            
+            /* Navigation Adjustments */
+            .mobile-only {
+                display: inline;
+            }
+            
+            .logo {
+                font-size: 1.2rem;
+                line-height: 1.2;
+                max-width: 200px;
+            }
+            
+            /* Service Box Mobile Layout */
+            .service-box {
+                width: 100%;
+                margin-bottom: var(--spacing-lg);
+            }
+            
+            /* About Section Mobile Layout */
+            .about-content {
+                flex-direction: column;
+                gap: var(--spacing-lg);
+            }
+            
+            /* Typography Mobile Adjustments */
+            h1 {
+                font-size: 2.4rem;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+            
+            h3 {
+                font-size: 1.4rem;
+            }
+            
+            /* Featured Section Mobile Adjustments */
+            .featured-project-inner p,
+            .featured-quote-inner p {
+                font-size: 1.8rem;
+            }
+            
+            /* Carousel Mobile Optimizations */
+            .carousel-container {
+                height: 300px;
+            }
+            
+            .carousel-button {
+                padding: 8px 12px;
+                font-size: 16px;
+            }
+        }
+
+        /* Tablet Responsive Adjustments */
+        @media screen and (max-width: 1024px) and (min-width: 769px) {
+            .service-box {
+                width: calc(50% - var(--spacing-md));
+            }
+            
+            .carousel-container {
+                height: 400px;
+            }
+        }
+
+
+        /* ==========================================================================
+           ACCESSIBILITY ENHANCEMENTS
+           ========================================================================== */
+        
+        /* Focus States for Keyboard Navigation */
+        .btn:focus,
+        .nav-menu a:focus,
+        .portfolio-header:focus-visible,
+        .testimonial-header:focus-visible,
+        .carousel-button:focus,
+        .indicator:focus {
+            outline: 2px solid var(--color-accent);
+            outline-offset: 2px;
+        }
+        
+        /* Reduced Motion Support */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ==========================================================================
+         HEADER & NAVIGATION
+         ========================================================================== -->
+    
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#intro" class="logo" aria-label="Willem Boning Acoustical Consultant - Home">
+                    Willem Boning<br class="mobile-only"><span class="lighttext"> | Acoustical Consultant</span>
+                </a>
+                
+                <ul class="nav-menu" role="navigation" aria-label="Main navigation">
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Featured Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#get-started">Get Started</a></li>
+                </ul>
+                
+                <div class="hamburger" role="button" aria-label="Toggle navigation menu" tabindex="0">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- ==========================================================================
+         MAIN CONTENT SECTIONS
+         ========================================================================== -->
+
+    <!-- Hero/Intro Section -->
+    <section id="intro" role="banner">
+        <div class="overlay"></div>
+        <div class="intro-container">
+            <h1>Expert design advice from the sound up.</h1>  
+            <p>I help architects, business owners and community organizations create sonically welcoming spaces. In projects big and small, I go beyond solving noise problems, working to <b>add acoustical value</b> to the design.</p>
+            <a href="#get-started" class="btn">Tell me about your project!</a>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <p>I consult on all aspects of sound in the built environment, from room acoustics to sound isolation to mechanical and environmental noise control. Here are three ways I can help you:</p>
+            
+            <div class="services-container">
+                <div class="service-box">
+                    <h3>#1 Single Consult</h3>
+                    <p>Do you have a question about building noise? Let's talk. Facing a noise problem? I can help you diagnose it and propose options for solving it. Want to learn the basics of sound in buildings? I can also run an 'Acoustics 101' workshop for you and your team.</p>
+                </div>
+                
+                <div class="service-box">
+                    <h3>#2 Project Support</h3>
+                    <p>Do you need full-scope acoustical consulting services on your building design project? With over a decade of experience working on multi-phase design and construction projects, I will fit right in with your project team.</p>
+                </div>
+           
+                <div class="service-box">
+                    <h3>#3 On-Call Support</h3>
+                    <p>Are you an architect, property manager or developer with a portfolio of different projects? I can provide support as needed at critical project moments under a master services agreement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <figure>
+                        <img src="Founder%20Willem%20Boning_rev.jpeg" alt="Willem Boning at Steinway piano factory">
+                        <figcaption>On a site visit to the Steinway piano factory in NYC</figcaption>
+                    </figure>
+                </div>
+                
+                <div class="about-text">
+                    <p>Hi, I'm Willem!</p>
+                    <p>After 10+ years cutting my teeth at Arup, a top engineering firm in NYC, I returned to my home country of Canada to start my own acoustical consulting practice. I've helped diverse clients create great sounding spaces around the world, from tech companies building their new headquarters to architects designing daring performing arts centers, to small business owners (including my own barber!) upgrading their shops to be more calm and welcoming to patrons.</p>
+                    <p>With a background in architectural design and over ten years of experience guiding projects from the earliest concept sketches through the final construction punchlist, I offer practical knowledge as well as technical expertise. I'm especially passionate about working on projects with a community focus and strong sustainability goals.</p>
+                    <p>I am based in Winnipeg, Canada but travel often to NYC and provide consulting services across Canada, the United States and worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Project Quote -->
+    <section id="featured-project">
+        <div class="featured-project-inner">
+            <p>"The sound was clear, vividly present and resonant. There's a crackling aliveness to music in the hall."</p>
+            <p2>- Zachary Woolfe, New York Times, on the Frick Collection Auditorium</p2>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            
+            <div class="portfolio-container">
+                <!-- The Frick Collection Project -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header" role="button" tabindex="0" aria-expanded="true" aria-controls="frick-content">
+                        <span><b>The Frick Collection</b> | Museum</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="portfolio-content" id="frick-content">
+                        <div class="portfolio-content-inner">
+                            <div class="image-carousel">
+                                <div class="carousel-container" role="region" aria-label="Frick Collection project images">
+                                    <div class="carousel-slide">
+                                        <img src="Frick_int1_credit-WillemBoning.JPG" alt="Frick Collection Auditorium interior view">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Frick_int2_credit-WillemBoning.jpg" alt="Frick Collection Auditorium seating area">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Frick_int3_credit-WillemBoning.jpg" alt="Frick Collection Auditorium stage view">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Frick_sim2_credit-WillemBoning.jpg" alt="Frick Collection Auditorium acoustic simulation">
+                                    </div>
+                                    <button class="carousel-button prev" aria-label="Previous image">&#10094;</button>
+                                    <button class="carousel-button next" aria-label="Next image">&#10095;</button>
+                                </div>
+                            </div>
+                            <p>New York, NY | Opened 2025</p>
+                            <p><b>Hailed by the New York Times as <a href="https://www.nytimes.com/2025/05/12/arts/music/frick-museum-concert-hall.html" target="_blank" rel="noopener">one of the best places to hear chamber performances in New York City</a></b></p>
+                            <p>I led acoustical consulting at Arup for the renovation and expansion of the Frick Collection, a historic house museum on New York's Upper East Side. The project included new galleries, a multimedia teaching space, a restaurant, an art conservation lab and updated offices and conference rooms.</p>
+                            <p>I collaborated closely with Selldorf Architects to design a new 220-seat auditorium that hosts chamber music concerts, talks and film screenings. The design features two overlapping shells acoustically optimized to focus sound from the musicians, creating an intimate listening environment loved by performers, audience members and music critics alike.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Geode Project -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header" role="button" tabindex="0" aria-expanded="false" aria-controls="geode-content">
+                        <span><b>The Geode</b> | Outdoor Music Space</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="portfolio-content" id="geode-content">
+                        <div class="portfolio-content-inner">
+                            <div class="image-carousel">
+                                <div class="carousel-container" role="region" aria-label="Geode project images">
+                                   <div class="carousel-slide">
+                                        <img src="Geode_context_credit-WillemBoning.jpg" alt="Geode in landscape context">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Geode_outside_credit-KevinKinzley.jpg" alt="Geode exterior view">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Geode_inside_credit-WillemBoning.jpg" alt="Geode interior space">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Geode_insidedetail_credit-WillemBoning.JPG" alt="Geode acoustic detail">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Geode_model_credit-WillemBoning.png" alt="Geode design model">
+                                    </div>
+                                    <button class="carousel-button prev" aria-label="Previous image">&#10094;</button>
+                                    <button class="carousel-button next" aria-label="Next image">&#10095;</button>
+                                </div>
+                            </div>
+                            <p>Fishtail, Montana, USA | Opened 2024</p>     
+                            <p><b>Named <a href="https://time.com/collection_hub_item/the-geode-at-tippet-rise-art-center/" target="_blank" rel="noopener">one of the World's Greatest Places</a> by Time Magazine</b></p>
+                            <p>I led a team of engineers at Arup to design and build a unique outdoor music space at the Tippet Rise Art Center in the foothills of the Beartooth Mountains. The center's founders had long dreamed of listening to classical music surrounded by nature, and I collaborated closely with them in a series of workshops to turn their concept sketches into a buildable design. The Geode is acoustically optimized to reflect and contain sound within four acoustic shells, creating a sonically immersive 'room without walls.' It protects musicians and audience members from the sun and wind but also allows sweeping views over the remote and rugged landscape.</p>
+                            <p class="caption">Image credits: Kevin Kinzley, Willem Boning, Willem Boning</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Restaurant Portfolio Project -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header" role="button" tabindex="0" aria-expanded="false" aria-controls="restaurant-content">
+                        <span><b>Picnic, Rocco and El Mercado</b> | Restaurant Portfolio</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="portfolio-content" id="restaurant-content">
+                        <div class="portfolio-content-inner">
+                            <div class="image-carousel">
+                                <div class="carousel-container" role="region" aria-label="Restaurant portfolio images">
+                                    <div class="carousel-slide">
+                                        <img src="Osterling_01_credit-WillemBoning.JPG" alt="Rafael Osterling restaurant interior">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Osterling_03_credit-WillemBoning.JPG" alt="Restaurant dining area">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Osterling_diagram_credit-WillemBoning.jpg" alt="Restaurant acoustic treatment diagram">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Osterling_04_credit-WillemBoning.JPG" alt="Restaurant acoustic installation">
+                                    </div>
+                                    <button class="carousel-button prev" aria-label="Previous image">&#10094;</button>
+                                    <button class="carousel-button next" aria-label="Next image">&#10095;</button>
+                                </div>
+                            </div>
+                            <p>Lima, Peru | 2024</p>                        
+                            <p>I advised Rafael Osterling, one of Peru's most celebrated chefs, on a broad range of acoustical upgrades to Picnic, El Mercado and Rocco, three restaurants in his portfolio. I helped him control noise buildup in the restaurants' dining rooms, retrofit rooftop structures to block mechanical noise and reduce kitchen noise breakout through the ventilation shafts among other challenges.</p>
+                        </div>
+                    </div>
+                </div>   
+
+                <!-- Music School Project -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header" role="button" tabindex="0" aria-expanded="false" aria-controls="music-school-content">
+                        <span><b>La Musique Aux Enfants</b> | Music School</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="portfolio-content" id="music-school-content">
+                        <div class="portfolio-content-inner">
+                            <div class="image-carousel">
+                                <div class="carousel-container" role="region" aria-label="Music school project images">
+                                    <div class="carousel-slide">
+                                        <img src="MusicPreschool_01_credit-RThibodeau.jpeg" alt="Music school classroom">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="MusicPreschool_03_credit-RThibodeau.jpeg" alt="Children in music class">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="MusicPreschool_02_credit-RThibodeau.jpeg" alt="Music education space">
+                                    </div>
+                                    <button class="carousel-button prev" aria-label="Previous image">&#10094;</button>
+                                    <button class="carousel-button next" aria-label="Next image">&#10095;</button>
+                                </div>
+                            </div>
+                            <p>Montreal, Quebec | Opened 2019</p>
+                            <p>La Musique Aux Enfants is an experimental music education program for preschoolers in North Montreal, one of the city's most underserved neighborhoods. Inspired by El Sistema, the program is a collaboration between the Orchestre symphonique de Montréal, the Université de Montréal and the Centre de services scolaires de la Pointe-de-l'Île.</p>                       
+                            <p>I led the acoustical design of the program's education space. Together with architects LeMayMichaud, I worked to transform the dingy basement of a public school into a world-class teaching facility with whisper-quiet background noise and professional-quality sound isolation, allowing multiple classes to go on at once in a comfortable and serene environment.</p>
+                            <p class="caption">Image credits: Raphaël Thibodeau</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Climate Film Festival Project -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header" role="button" tabindex="0" aria-expanded="false" aria-controls="film-festival-content">
+                        <span><b>Climate Film Festival</b> | Event Venue</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="portfolio-content" id="film-festival-content">
+                        <div class="portfolio-content-inner">
+                            <div class="image-carousel">
+                                <div class="carousel-container" role="region" aria-label="Film festival project images">
+                                    <div class="carousel-slide">
+                                        <img src="filmfest_talk.jpeg" alt="Film festival speaker presentation">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="filmfest_talk-3.jpg" alt="Film festival audience">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="filmfest_plan.jpeg" alt="Film festival venue plan">
+                                    </div>
+                                    <button class="carousel-button prev" aria-label="Previous image">&#10094;</button>
+                                    <button class="carousel-button next" aria-label="Next image">&#10095;</button>
+                                </div>
+                            </div>
+                            <p>New York, NY | 2024</p>
+                            <p>I helped the New York Climate Film Festival maximize the use of their rental venue, a historic fire station in downtown NYC, by improving the venue's acoustics.</p>
+                            <p>Prior to asking for my help, Alec, the Film Festival founder, was not sure the festival would be able to screen films and hold talks at the same time because there was so much sound bleed from one room into the other. I helped Alec identify a range of quick and low-cost solutions to improve the sound isolation, including sealing gaps, renting portable drapery and even rearranging furniture.</p>
+                        </div>
+                    </div>
+                </div>            
+            
+                <!-- Moving Chains Project -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header" role="button" tabindex="0" aria-expanded="false" aria-controls="chains-content">
+                        <span><b>Moving Chains</b> | Art Installation</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="portfolio-content" id="chains-content">
+                        <div class="portfolio-content-inner">
+                            <div class="image-carousel">
+                                <div class="carousel-container" role="region" aria-label="Moving Chains project images">
+                                    <div class="carousel-slide">
+                                        <img src="Chains_ext_credit-Timothy-Schenk.jpg" alt="Moving Chains exterior installation">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Chains_int_credit-scott-lynch.jpg" alt="Moving Chains interior experience">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="Chains_mockup_credit-WillemBoning.JPG" alt="Moving Chains testing mockup">
+                                    </div>
+                                    <button class="carousel-button prev" aria-label="Previous image">&#10094;</button>
+                                    <button class="carousel-button next" aria-label="Next image">&#10095;</button>
+                                </div>
+                            </div>
+                           
+                            <p>New York, NY | 2022-2023</p>                        
+                            <p>I was commissioned by the Trust for Governors Island to help artist Charles Gaines shape the sound of his monumental kinetic sculpture 'Moving Chains,' installed on Governors Island from 2022 to 2023. Charles wanted his artwork to evoke the experience of being in a slave ship and envisioned an immersive sonic environment where visitors would not only hear but <i>feel</i> chains clanking and dragging above their heads.</p>
+                            <p>I worked with Charles, producers Creative Time and the project's fabricators to tune the sound of the sculpture's rotating chain links, advising on material selection, structural connections and details of the chain mechanism, including two full days of mockup testing in a warehouse we had taken over to test the chain drive mechanism.</p>
+                            <p class="caption">Image credits: Timothy Schenk, Scott Lynch, Willem Boning</p>
+                        </div>
+                    </div>
+                </div>        
+            
+                <!-- Casper Dreamery Project -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header" role="button" tabindex="0" aria-expanded="false" aria-controls="dreamery-content">
+                        <span><b>Casper Dreamery</b> | Retail Experience</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="portfolio-content" id="dreamery-content">
+                        <div class="portfolio-content-inner">
+                            <div class="image-carousel">
+                                <div class="carousel-container" role="region" aria-label="Casper Dreamery project images">
+                                    <div class="carousel-slide">
+                                        <img src="casper_int_credit-HWKN.png" alt="Dreamery interior space">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="casper_pod_credit-NYPost.jpg" alt="Dreamery nap pod">
+                                    </div>
+                                    <div class="carousel-slide">
+                                        <img src="casper_details_credit-WillemBoning.jpg" alt="Dreamery acoustic details">
+                                    </div>
+                                    <button class="carousel-button prev" aria-label="Previous image">&#10094;</button>
+                                    <button class="carousel-button next" aria-label="Next image">&#10095;</button>
+                                </div>
+                            </div>
+                           
+                            <p>New York, NY | 2018</p>                        
+                            <p>Early in my career at Arup I advised architects at HWKN on how to create a calm and quiet environment for Casper's The Dreamery, a pop-up napping experience in SoHo. The holistic acoustical approach included reducing noise buildup in the napping area, developing creative options for the nap pod door closure, and even devising strategies for ventilating the pods that would minimize sound bleed.</p>
+                            <p class="caption">Image credits: HWKN, NY Post, Willem Boning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Quote -->
+    <section id="featured-quote">
+        <div class="featured-quote-inner">
+            <p>"Willem was fantastic—knowledgeable, practical, helpful! He offered practical solutions that met our needs, including outside-the-box thinking."</p>
+            <p2>- Alec Turnbull, Climate Film Festival Director</p2>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial-container">
+                <!-- Pete Hinmon Testimonial -->
+                <div class="testimonial-item">
+                    <div class="testimonial-header" role="button" tabindex="0" aria-expanded="false" aria-controls="pete-testimonial">
+                        <span>Pete Hinmon, Tippet Rise Art Center Co-Director</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="testimonial-content" id="pete-testimonial">
+                        <div class="testimonial-content-inner">
+                            <p>"Willem led a team of engineers through the design and fabrication of our art center's new outdoor performance space. Willem understood the concept that acoustics should take the lead and allowed the design to adapt, resulting in a completely unique structure that blends being in nature with beautiful acoustics. He is creative, detail-oriented and very thoughtful with colleagues and clients."</p>
+                            <p class="testimonial-name">- Pete</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Alec Turnbull Testimonial -->
+                <div class="testimonial-item">
+                    <div class="testimonial-header" role="button" tabindex="0" aria-expanded="false" aria-controls="alec-testimonial">
+                        <span>Alec Turnbull, Climate Film Festival Founder</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="testimonial-content" id="alec-testimonial">
+                        <div class="testimonial-content-inner">
+                            <p>"Willem was fantastic—knowledgeable, practical, helpful! He gave us clear explanations of <i>why</i> certain things would or wouldn't work and offered practical solutions that met our needs, including outside-the-box thinking like adjusting room usage. His advice worked and dramatically reduced the noise bleed between our lounge and screening room."</p>
+                            <p class="testimonial-name">- Alec</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Get Started Section -->
+    <section id="get-started">
+        <div class="container">
+            <h2>Let's Get Started</h2>
+            <p>Ready to transform your acoustic environment? Click below to tell me more about your project and I'll be in touch.</p>
+            
+            <div style="text-align: center;">
+                <a href="https://forms.gle/xNLdSX8rphcLNkfe8" class="btn" target="_blank" rel="noopener">Tell me about your project</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <p>Any questions? Contact me at <a href="mailto:willem@fromthesoundup.com">willem@fromthesoundup.com</a></p>
+        </div>
+    </section>
+
+
+    <!-- ==========================================================================
+         FOOTER
+         ========================================================================== -->
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024-2025 Willem Boning. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- ==========================================================================
+         JAVASCRIPT FUNCTIONALITY
+         ========================================================================== -->
+    
+    <script>
+        /* ==========================================================================
+           NAVIGATION FUNCTIONALITY
+           ========================================================================== */
+        
+        /**
+         * Initialize mobile navigation toggle functionality
+         */
+        function initializeNavigation() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (!hamburger || !navMenu) return;
+            
+            // Toggle mobile menu when hamburger is clicked
+            hamburger.addEventListener('click', toggleMobileMenu);
+            hamburger.addEventListener('keydown', handleHamburgerKeydown);
+
+            // Close mobile menu when clicking on a menu item
+            document.querySelectorAll('.nav-menu a').forEach(item => {
+                item.addEventListener('click', closeMobileMenu);
+            });
+
+            function toggleMobileMenu() {
+                navMenu.classList.toggle('active');
+                updateAriaExpanded();
+            }
+
+            function handleHamburgerKeydown(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleMobileMenu();
+                }
+            }
+
+            function closeMobileMenu() {
+                navMenu.classList.remove('active');
+                updateAriaExpanded();
+            }
+
+            function updateAriaExpanded() {
+                const isExpanded = navMenu.classList.contains('active');
+                hamburger.setAttribute('aria-expanded', isExpanded);
+            }
+        }
+
+
+        /* ==========================================================================
+           SMOOTH ACCORDION FUNCTIONALITY (Testimonials & Portfolio)
+           ========================================================================== */
+
+        /**
+         * Initialize accordion functionality with smooth animations
+         * @param {string} headerSelector - CSS selector for accordion headers
+         * @param {string} contentSelector - CSS selector for accordion content
+         */
+        function initializeAccordions(headerSelector, contentSelector) {
+            const headers = document.querySelectorAll(headerSelector);
+            
+            headers.forEach(header => {
+                header.addEventListener('click', () => handleAccordionClick(header, headers));
+                header.addEventListener('keydown', (e) => handleAccordionKeydown(e, header, headers));
+            });
+
+            function handleAccordionClick(clickedHeader, allHeaders) {
+                toggleAccordion(clickedHeader, allHeaders);
+            }
+
+            function handleAccordionKeydown(e, header, allHeaders) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleAccordion(header, allHeaders);
+                }
+            }
+
+            function toggleAccordion(currentHeader, allHeaders) {
+                const isCurrentlyActive = currentHeader.classList.contains('active');
+                const content = currentHeader.nextElementSibling;
+                
+                // Close all other accordions for exclusive behavior
+                allHeaders.forEach(otherHeader => {
+                    if (otherHeader !== currentHeader && otherHeader.classList.contains('active')) {
+                        closeAccordion(otherHeader);
+                    }
+                });
+
+                // Toggle current accordion
+                if (isCurrentlyActive) {
+                    closeAccordion(currentHeader);
+                } else {
+                    openAccordion(currentHeader);
+                }
+            }
+
+            function openAccordion(header) {
+                const content = header.nextElementSibling;
+                
+                header.classList.add('active');
+                header.setAttribute('aria-expanded', 'true');
+                
+                // Calculate and set max-height for smooth animation
+                content.style.maxHeight = content.scrollHeight + 'px';
+                
+                // Re-initialize carousels if this is a portfolio item
+                if (header.classList.contains('portfolio-header')) {
+                    setTimeout(() => initializeImageCarousels(), 350);
+                }
+            }
+
+            function closeAccordion(header) {
+                const content = header.nextElementSibling;
+                
+                header.classList.remove('active');
+                header.setAttribute('aria-expanded', 'false');
+                content.style.maxHeight = '0';
+            }
+        }
+
+        /**
+         * Initialize portfolio accordions with first item open by default
+         */
+        function initializePortfolioAccordions() {
+            initializeAccordions('.portfolio-header', '.portfolio-content');
+            
+            // Open first portfolio item by default
+            const firstHeader = document.querySelector('.portfolio-header');
+            if (firstHeader && !firstHeader.classList.contains('active')) {
+                firstHeader.classList.add('active');
+                firstHeader.setAttribute('aria-expanded', 'true');
+                const firstContent = firstHeader.nextElementSibling;
+                firstContent.style.maxHeight = firstContent.scrollHeight + 'px';
+            }
+        }
+
+        /**
+         * Initialize testimonial accordions
+         */
+        function initializeTestimonialAccordions() {
+            initializeAccordions('.testimonial-header', '.testimonial-content');
+        }
+
+
+        /* ==========================================================================
+           ENHANCED IMAGE CAROUSEL FUNCTIONALITY
+           ========================================================================== */
+
+        /**
+         * Initialize all image carousels on the page
+         */
+        function initializeImageCarousels() {
+            // Clear any existing carousels to prevent duplicates
+            document.querySelectorAll('.carousel-indicators').forEach(indicator => {
+                if (indicator.parentNode) {
+                    indicator.parentNode.removeChild(indicator);
+                }
+            });
+
+            const carousels = document.querySelectorAll('.carousel-container');
+            carousels.forEach(carousel => setupSingleCarousel(carousel));
+        }
+
+        /**
+         * Set up functionality for a single carousel with performance optimizations
+         * @param {Element} carousel - The carousel container element
+         */
+        function setupSingleCarousel(carousel) {
+            const slides = carousel.querySelectorAll('.carousel-slide');
+            const prevBtn = carousel.querySelector('.prev');
+            const nextBtn = carousel.querySelector('.next');
+            
+            if (!slides.length || !prevBtn || !nextBtn) return;
+
+            let currentSlide = 0;
+            let intervalId = null;
+            let isAnimating = false;
+
+            // Create and append indicators
+            const indicatorsContainer = createCarouselIndicators(slides.length);
+            carousel.appendChild(indicatorsContainer);
+
+            // Position slides initially
+            positionSlides(currentSlide);
+
+            // Set up navigation controls
+            setupCarouselNavigation();
+
+            // Set up auto-advance functionality
+            setupAutoAdvance();
+
+            /**
+             * Create indicator dots for carousel navigation
+             */
+            function createCarouselIndicators(slideCount) {
+                const container = document.createElement('div');
+                container.className = 'carousel-indicators';
+
+                for (let i = 0; i < slideCount; i++) {
+                    const indicator = document.createElement('div');
+                    indicator.className = 'indicator' + (i === 0 ? ' active' : '');
+                    indicator.setAttribute('role', 'button');
+                    indicator.setAttribute('aria-label', `Go to slide ${i + 1}`);
+                    indicator.setAttribute('tabindex', '0');
+                    
+                    indicator.addEventListener('click', () => goToSlide(i));
+                    indicator.addEventListener('keydown', (e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            goToSlide(i);
+                        }
+                    });
+                    
+                    container.appendChild(indicator);
+                }
+
+                return container;
+            }
+
+            /**
+             * Position all slides based on current slide index
+             */
+            function positionSlides(current) {
+                slides.forEach((slide, index) => {
+                    slide.style.transform = `translateX(${100 * (index - current)}%)`;
+                });
+            }
+
+            /**
+             * Update indicator active states
+             */
+            function updateIndicators() {
+                const indicators = carousel.querySelectorAll('.indicator');
+                indicators.forEach((indicator, index) => {
+                    indicator.classList.toggle('active', index === currentSlide);
+                    indicator.setAttribute('aria-pressed', index === currentSlide);
+                });
+            }
+
+            /**
+             * Navigate to a specific slide with animation protection
+             */
+            function goToSlide(slideIndex) {
+                if (isAnimating || slideIndex === currentSlide) return;
+                
+                isAnimating = true;
+                positionSlides(slideIndex);
+                currentSlide = slideIndex;
+                updateIndicators();
+                
+                // Reset animation flag after transition completes
+                setTimeout(() => {
+                    isAnimating = false;
+                }, 600);
+            }
+
+            /**
+             * Move to next slide
+             */
+            function nextSlide() {
+                const next = (currentSlide + 1) % slides.length;
+                goToSlide(next);
+            }
+
+            /**
+             * Move to previous slide
+             */
+            function prevSlide() {
+                const prev = (currentSlide - 1 + slides.length) % slides.length;
+                goToSlide(prev);
+            }
+
+            /**
+             * Set up navigation button event listeners
+             */
+            function setupCarouselNavigation() {
+                nextBtn.addEventListener('click', handleNextClick);
+                prevBtn.addEventListener('click', handlePrevClick);
+
+                function handleNextClick(e) {
+                    e.stopPropagation();
+                    nextSlide();
+                }
+
+                function handlePrevClick(e) {
+                    e.stopPropagation();
+                    prevSlide();
+                }
+            }
+
+            /**
+             * Set up auto-advance functionality with intersection observer
+             */
+            function setupAutoAdvance() {
+                function startAutoSlide() {
+                    if (intervalId === null) {
+                        intervalId = setInterval(nextSlide, 5000);
+                    }
+                }
+
+                function stopAutoSlide() {
+                    if (intervalId !== null) {
+                        clearInterval(intervalId);
+                        intervalId = null;
+                    }
+                }
+
+                // Use Intersection Observer for better performance
+                const observer = new IntersectionObserver((entries) => {
+                    entries[0].isIntersecting ? startAutoSlide() : stopAutoSlide();
+                }, { threshold: 0.3 });
+
+                observer.observe(carousel);
+
+                // Pause auto-slide on user interaction
+                carousel.addEventListener('mouseenter', stopAutoSlide);
+                carousel.addEventListener('mouseleave', startAutoSlide);
+                carousel.addEventListener('focusin', stopAutoSlide);
+                carousel.addEventListener('focusout', startAutoSlide);
+            }
+        }
+
+
+        /* ==========================================================================
+           RESPONSIVE HANDLING & PERFORMANCE OPTIMIZATION
+           ========================================================================== */
+
+        /**
+         * Handle window resize events with debouncing for better performance
+         */
+        function handleWindowResize() {
+            let resizeTimeout;
+            
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(recalculateAccordionHeights, 150);
+            });
+
+            function recalculateAccordionHeights() {
+                // Recalculate heights for open accordion items
+                document.querySelectorAll('.portfolio-header.active, .testimonial-header.active').forEach(header => {
+                    const content = header.nextElementSibling;
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                });
+            }
+        }
+
+
+        /* ==========================================================================
+           INITIALIZATION & ERROR HANDLING
+           ========================================================================== */
+
+        /**
+         * Initialize all interactive functionality when DOM is loaded
+         */
+        function initializeAllFunctionality() {
+            try {
+                initializeNavigation();
+                initializeTestimonialAccordions();
+                initializePortfolioAccordions();
+                initializeImageCarousels();
+                handleWindowResize();
+            } catch (error) {
+                console.error('Error initializing website functionality:', error);
+            }
+        }
+
+        /**
+         * Ensure initialization runs when DOM is ready
+         */
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializeAllFunctionality);
+        } else {
+            // DOM is already loaded
+            initializeAllFunctionality();
+        }
+    </script>
+</body>
+</html>
+```
+
+## 🎉 Phase 3 Complete! Final Optimization Summary:
+
+### ✨ **Smooth Dropdown Animation** (Your Requested Change):
+- **Enhanced transition**: `--transition-smooth: 0.4s cubic-bezier(0.25, 0.8, 0.25, 1)`
+- **Buttery smooth opening/closing** with optimized easing curve
+- **Quick but elegant** animation timing
+
+### 🚀 **Performance Optimizations**:
+- **Debounced window resize** handling (150ms delay)
+- **Animation protection** prevents rapid-fire clicks
+- **Intersection Observer** for carousel auto-advance
+- **DOM query optimization** with error handling
+
+### ♿ **Accessibility Enhancements**:
+- **ARIA labels** for all interactive elements
+- **Keyboard navigation** support (Enter/Space keys)
+- **Focus states** with visible outlines
+- **Screen reader** friendly carousel descriptions
+- **Reduced motion** support for accessibility
+
+### 🧹 **Code Polish**:
+- **Comprehensive documentation** for all functions
+- **Error handling** with try-catch blocks
+- **Consistent naming** conventions throughout
+- **Optimized CSS** with better organization
+- **Performance** improvements across all components
+
+### 🎨 **Enhanced Interactions**:
+- **Hover effects** with subtle transforms and scale
+- **Smooth button** hover animations
+- **Image hover** effects in about section
+- **Improved visual** feedback throughout
+
+## 🏆 **Your website is now production-ready!**
+
+**Benefits you'll experience:**
+- **Effortless maintenance** - Change colors/fonts in one place
+- **Smooth user experience** - Beautiful animations and interactions  
+- **Future-proof** - Well-documented, modular code
+- **Accessible** - Works for all users including screen readers
+- **Professional** - Clean, optimized, industry-standard code
+
+Test the smooth dropdown animations and let me know how everything feels!
