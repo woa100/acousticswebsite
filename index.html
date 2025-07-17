@@ -1250,10 +1250,25 @@
         <div class="container">
             <h2>Testimonials</h2>
             <div class="testimonial-container">
+                
+                <!-- Madelynn Ringo Testimonial -->
+                <div class="testimonial-item">
+                    <div class="testimonial-header" role="button" tabindex="0" aria-expanded="true" aria-controls="madelynn-testimonial">
+                        <span>Madelynn Ringo, architectural designer</span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </div>
+                    <div class="testimonial-content" id="pete-testimonial">
+                        <div class="testimonial-content-inner">
+                            <p>"Willem's expertise has been invaluable to our design studio. He provided an excellent <i>Introduction to Acoustics</i> workshop for our entire team, which left us feeling more confident to speak with with clients and each other about acoustical considerations. On our first office project working together, acoustics were a top priority for the client. Willem gave us thoughtful guidance and detailed specifications that directly supported our design process and documentation. I’m grateful for his collaboration and would highly recommend working with him."</p>
+                            <p class="testimonial-name">- Madelynn</p>
+                        </div>
+                    </div>
+                </div>
+                
                 <!-- Pete Hinmon Testimonial -->
                 <div class="testimonial-item">
                     <div class="testimonial-header" role="button" tabindex="0" aria-expanded="false" aria-controls="pete-testimonial">
-                        <span>Pete Hinmon, Tippet Rise Art Center Co-Director</span>
+                        <span>Pete Hinmon, Tippet Rise Art Center co-director</span>
                         <span class="arrow" aria-hidden="true">▼</span>
                     </div>
                     <div class="testimonial-content" id="pete-testimonial">
@@ -1267,7 +1282,7 @@
                 <!-- Alec Turnbull Testimonial -->
                 <div class="testimonial-item">
                     <div class="testimonial-header" role="button" tabindex="0" aria-expanded="false" aria-controls="alec-testimonial">
-                        <span>Alec Turnbull, Climate Film Festival Founder</span>
+                        <span>Alec Turnbull, Climate Film Festival founder</span>
                         <span class="arrow" aria-hidden="true">▼</span>
                     </div>
                     <div class="testimonial-content" id="alec-testimonial">
@@ -1476,6 +1491,21 @@
          */
         function initializeTestimonialAccordions() {
             initializeAccordions('.testimonial-header', '.testimonial-content');
+            
+                  // Open first portfolio item by default
+            const firstHeader = document.querySelector('.testimonial-header');
+            if (firstHeader && !firstHeader.classList.contains('active')) {
+                firstHeader.classList.add('active');
+                firstHeader.setAttribute('aria-expanded', 'true');
+                const firstContent = firstHeader.nextElementSibling;
+                const firstItem = firstHeader.closest('.portfolio-item');
+                
+                if (firstItem) {
+                    firstItem.classList.add('expanded');
+                }
+                
+                firstContent.style.maxHeight = firstContent.scrollHeight + 'px';
+            }      
         }
 
 
