@@ -9,7 +9,7 @@ Recently a friend asked me to find a place in Winnipeg where we could sit and ha
 
 It was hard to think of a place because so many of my normal spots can get noisy and don't have great privacy. I finally found a family-run Vietnamese restaurant in Saint Boniface I'd never been to - Le Colonial - with review photos showing an acoustic tile ceiling and upholstered furniture. It was a good pick. The vibe was relaxed and calm and there were just enough other people dining there to add some 'babble' background noise, giving us the privacy we needed. The conversation went really well and I have the restaurant acoustics to thank. 
 
-![Le Colonial Restaurant, Winnipeg](/_posts/_assets/lecolonial.jpg)
+![Le Colonial Restaurant, Winnipeg](/blogassets/lecolonial.jpg)
 
 Le Colonial Restaurant, Winnipeg
 
@@ -25,7 +25,7 @@ But even in cities with less real estate cost pressure, like Winnipeg, restauran
 
 For decades, you could walk into a restaurant anywhere in Canada or the US and bet that it would have an acoustical tile ceiling, a lightweight grid of mineral fiber tiles hung from the structural slab or roof above. Acoustical tile ceilings were ubiquitous because they were cheap, easy to install, provided a big cavity to hide HVAC ducts, sprinkler pipes and wiring out of sight, and of course, reduced the noise level in the restaurant. Many restaurants also had a carpet and upholstered seating, which absorbed additional sound.
 
-![Oak Point Restaurant, Winnipeg](/_posts/_assets/oakpoint.jpeg)
+![Oak Point Restaurant, Winnipeg](/blogassets/oakpoint.jpeg)
 
 Oak Point Restaurant, Winnipeg
 
@@ -37,7 +37,7 @@ But acoustic tile ceilings, wall to wall carpet and booth seating fell out of fa
 
 Loft living and the rise of post-industrial preservation and restoration made taller ceilings desirable and it became acceptable, even stylish, to expose ducts and conduit in the room. I lived in downtown NYC for ten years and watched as cosy, grungy dive bars, many of them with black-painted acoustic tile ceilings and beaten-up upholstered booths, closed down and were replaced by new bars with concrete, reclaimed wood and steel pipes forming the material palette. All of those materials are hard, dense and nonporous, reflecting sound waves back into the room where they build up into a reverberant cacaphony. 
 
-![House of Funk Brewery, North Vancouver](/_posts/_assets/houseoffunk_photo-cutler.jpg)
+![House of Funk Brewery, North Vancouver](/blogassets/houseoffunk_photo-cutler.jpg)
 
 House of Funk Brewery, North Vancouver (photo: Cutler Architects)
 
@@ -47,7 +47,7 @@ The industrial style has its roots in SoHo and Brooklyn in NYC but has spread ar
 
 A parallel trend has been the rise of minimalism. Minimalism, with its clean lines and sparsh furnishings (if there are furnishings at all), may be calm visually but can be chaotic sonically. Like the Industrial Style, Minimalism's materials are hard and sound-reflecting, so sound energy simply builds up in the space.  As a result, Minimalist cafes and restaurants can sound cold, echo-y and uninviting when there are just a few customers and chaotic when they become full of customers.
 
-![Equate Coffee, Singapore](/_posts/_assets/equatecoffee_photo-equate.jpg)
+![Equate Coffee, Singapore](/blogassets/equatecoffee_photo-equate.jpg)
 
 Equate Coffee, Singapore (photo: Equate Coffee)
 
@@ -65,7 +65,7 @@ A calmer restaurant environment:
 
 ### A Local Shoutout
 
-![Nonsuch Brewing Co, Winnipeg](/_posts/_assets/nonsuch_photo-nonsuch.jpg)
+![Nonsuch Brewing Co, Winnipeg](/blogassets/nonsuch_photo-nonsuch.jpg)
 
 Nonsuch Brewing Co, Winnipeg (photo: Nonsuch Brewing Co)
 
