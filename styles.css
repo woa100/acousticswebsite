@@ -557,9 +557,8 @@ section {
     margin: 0 auto;
 }
 
-.portfolio-container {
-    background-color: var(--color-bg-light);
-}
+/* Note: portfolio-container background is set at the section level (#portfolio),
+   not here, so blog posts using this class don't inherit a gray background. */
 
 /* Accordion Item Styling - Hover only when NOT expanded */
 .portfolio-item,
@@ -860,9 +859,12 @@ footer {
    BLOG POST STYLES
    ========================================================================== */
 
-/* Post page top-level section — adds clearance for fixed header */
+/* Post page top-level section — adds clearance for fixed header.
+   To adjust space between the nav bar and the date/title:
+   change the multiplier on --section-spacing (currently 2.5x = ~87px of breathing room).
+   --spacing-header (70px) is fixed — it equals the height of the nav bar itself. */
 .post {
-    padding-top: calc(var(--spacing-header) + var(--section-spacing));
+    padding-top: calc(var(--spacing-header) + (var(--section-spacing) * 2.5));
     padding-bottom: var(--section-spacing);
     background-color: var(--color-white);
 }
@@ -872,16 +874,18 @@ footer {
     font-size: var(--font-size-small);
     color: var(--color-caption);
     margin-bottom: var(--spacing-xs);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
 }
 
 /* Post title — matches section headers (About, Testimonials, etc.) */
 /* Uses existing h2 styles, no override needed */
 
-/* Post content wrapper — 800px centered column, matches portfolio container */
+/* Post content wrapper — 800px centered column, matches portfolio container.
+   Padding matches .portfolio-content-inner on the main page. */
 .post-content {
     margin-top: var(--spacing-xl);
+    padding: var(--spacing-xl);
+    background-color: var(--color-white);
 }
 
 /* Post subtitles — bold, smaller than featured quotes (1.7rem), larger than body */
