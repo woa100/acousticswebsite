@@ -1,0 +1,7 @@
+title: From the Sound Up
+description: Acoustical Consulting
+url: "https://www.fromthesoundup.com"
+permalink: pretty
+
+plugins:
+  - jekyll-feed
