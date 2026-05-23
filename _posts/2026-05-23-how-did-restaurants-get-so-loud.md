@@ -47,7 +47,7 @@ The industrial style has its roots in SoHo and Brooklyn in NYC but has spread ar
 
 A parallel trend has been the rise of minimalism. Minimalism, with its clean lines and sparsh furnishings (if there are furnishings at all), may be calm visually but can be chaotic sonically. Like the Industrial Style, Minimalism's materials are hard and sound-reflecting, so sound energy simply builds up in the space.  As a result, Minimalist cafes and restaurants can sound cold, echo-y and uninviting when there are just a few customers and chaotic when they become full of customers.
 
-![Equate Coffee, Singapore](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
+![Equate Coffee, Singapore](/_posts/_assets/equatecoffee_photo-equate.jpg)
 
 Equate Coffee, Singapore (photo: Equate Coffee)
 
