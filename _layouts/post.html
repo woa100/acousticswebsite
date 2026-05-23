@@ -1,0 +1,26 @@
+
+---
+layout: default
+---
+
+<section class="post">
+
+    <!-- Post title and date — full-width container matching section headers -->
+    <div class="container">
+        <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+        <h2>{{ page.title }}</h2>
+    </div>
+
+    <!-- Post body — 800px centered column matching portfolio/testimonial width -->
+    <div class="portfolio-container post-content">
+
+        {{ content }}
+
+        <!-- CTA -->
+        <div class="post-cta">
+            <a href="/#get-started" class="btn">Tell me how I can help!</a>
+        </div>
+
+    </div>
+
+</section>
