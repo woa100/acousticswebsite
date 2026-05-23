@@ -25,11 +25,11 @@ But even in cities with less real estate cost pressure, like Winnipeg, restauran
 
 For decades, you could walk into a restaurant anywhere in Canada or the US and bet that it would have an acoustical tile ceiling, a lightweight grid of mineral fiber tiles hung from the structural slab or roof above. Acoustical tile ceilings were ubiquitous because they were cheap, easy to install, provided a big cavity to hide HVAC ducts, sprinkler pipes and wiring out of sight, and of course, reduced the noise level in the restaurant. Many restaurants also had a carpet and upholstered seating, which absorbed additional sound.
 
+![Oak Point Restaurant, Winnipeg](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
+
+Oak Point Restaurant, Winnipeg
+
 Some restaurants with this 'classic' look and feel still exist, their original design relatively untouched since opening day. When I took a day trip with my nephew to see the Narcisse Snake Dens, we stopped for lunch at Oak Point Restaurant (opened in 1977), and was delighted to find it full of lovingly maintained vintage furniture, with an acoustical tile ceiling spanning the whole space. My nephew has ADHD and finds it hard to sit still and focus on eating in loud restaurants so it was great to enjoy the calm and cosy environment together. 
-
-![Le Colonial Restaurant, Winnipeg](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
-
-Le Colonial Restaurant, Winnipeg
 
 ### The Industrial Style
 
@@ -37,19 +37,20 @@ But acoustic tile ceilings, wall to wall carpet and booth seating fell out of fa
 
 Loft living and the rise of post-industrial preservation and restoration made taller ceilings desirable and it became acceptable, even stylish, to expose ducts and conduit in the room. I lived in downtown NYC for ten years and watched as cosy, grungy dive bars, many of them with black-painted acoustic tile ceilings and beaten-up upholstered booths, closed down and were replaced by new bars with concrete, reclaimed wood and steel pipes forming the material palette. All of those materials are hard, dense and nonporous, reflecting sound waves back into the room where they build up into a reverberant cacaphony. 
 
+![House of Funk Brewery, North Vancouver](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
+
+House of Funk Brewery, North Vancouver (photo: Cutler Architects)
+
 The industrial style has its roots in SoHo and Brooklyn in NYC but has spread around the world, including to places with no real industrial heritage. 
-
-![Le Colonial Restaurant, Winnipeg](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
-
-Le Colonial Restaurant, Winnipeg
 
 ### Minimal Look, Maximal Sound
 
 A parallel trend has been the rise of minimalism. Minimalism, with its clean lines and sparsh furnishings (if there are furnishings at all), may be calm visually but can be chaotic sonically. Like the Industrial Style, Minimalism's materials are hard and sound-reflecting, so sound energy simply builds up in the space.  As a result, Minimalist cafes and restaurants can sound cold, echo-y and uninviting when there are just a few customers and chaotic when they become full of customers.
 
-![Le Colonial Restaurant, Winnipeg](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
+![Equate Coffee, Singapore](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
 
-Le Colonial Restaurant, Winnipeg
+Equate Coffee, Singapore (photo: Equate Coffee)
+
 
 ### Why Good Acoustics Matter in Restaurants, Cafes and Bars
 
@@ -64,9 +65,9 @@ A calmer restaurant environment:
 
 ### A Local Shoutout
 
-![Le Colonial Restaurant, Winnipeg](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
+![Nonsuch Brewing Co, Winnipeg](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/9f/45/b8/restaurant.jpg)
 
-Le Colonial Restaurant, Winnipeg
+Nonsuch Brewing Co, Winnipeg (photo: Nonsuch Brewing Co)
 
 As I was writing this entry, one Winnipeg restaurant came to mind for how good its sound environment is: Nonsuch Brewery in the Exchange District. I love going to Nonsuch on special occasions because it feels both lively and intimate. There's a nice buzz when the restaurant is full but I can also have a quiet conversation and don't have to raise my voice.
 
