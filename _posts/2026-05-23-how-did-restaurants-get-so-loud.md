@@ -2,7 +2,7 @@
 layout: post
 title: How Did Restaurants Get So Loud?
 date: 2026-05-23
-description: Why are restaurants so noisy these days — and what can be done about it?
+description: DESCRIPTION GOES HERE
 ---
 
 Recently a friend asked me to find a place in Winnipeg where we could sit and have a conversation about a sensitive topic. We needed privacy but also wanted to feel relaxed. I imagined a quiet cafe or restaurant, but not so quiet that other guests would be able to overhear our conversation.
