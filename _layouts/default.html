@@ -17,33 +17,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="banner-container">
-            <nav>
-                <a href="/" class="logo" aria-label="From the Sound Up Acoustical Consultant - Home">
-                    From the Sound Up<br class="mobile-only">
-                    <span class="separator"> | </span><span class="lighttext">Acoustical Consultant</span>
-                </a>
-
-                <ul class="nav-menu" role="navigation" aria-label="Main navigation">
-                    <li><a href="/#intro">Home</a></li>
-                    <li><a href="/#services">Services</a></li>
-                    <li><a href="/#about">About</a></li>
-                    <li><a href="/#portfolio">Featured Projects</a></li>
-                    <li><a href="/#testimonials">Testimonials</a></li>
-                    <li><a href="/blog">Insights</a></li>
-                    <li><a href="/#get-started">Contact</a></li>
-                </ul>
-
-                <div class="hamburger" role="button" aria-label="Toggle navigation menu" tabindex="0">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
+    {% include header.html %}
+    
     <main>
         {{ content }}
     </main>
