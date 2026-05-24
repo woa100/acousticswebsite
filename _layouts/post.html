@@ -6,7 +6,7 @@
     <meta name="description" content="{{ page.description }}">
     <title>{{ page.title }} | From the Sound Up</title>
     <link rel="stylesheet" href="/styles.css">
- 
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
 </head>
- 
+
 <body>
     <header>
         <div class="banner-container">
@@ -23,7 +23,7 @@
                     From the Sound Up<br class="mobile-only">
                     <span class="separator"> | </span><span class="lighttext">Acoustical Consultant</span>
                 </a>
- 
+
                 <ul class="nav-menu" role="navigation" aria-label="Main navigation">
                     <li><a href="/#intro">Home</a></li>
                     <li><a href="/#services">Services</a></li>
@@ -33,7 +33,7 @@
                     <li><a href="/#get-started">Contact</a></li>
                     <li><a href="/blog">Insights</a></li>
                 </ul>
- 
+
                 <div class="hamburger" role="button" aria-label="Toggle navigation menu" tabindex="0">
                     <div class="line1"></div>
                     <div class="line2"></div>
@@ -42,29 +42,32 @@
             </nav>
         </div>
     </header>
- 
+
     <section class="post">
- 
-        <!-- Post title and date — full-width container matching section headers -->
+
         <div class="container">
+
+            <!-- Post title and date -->
             <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
             <h2>{{ page.title }}</h2>
-        </div>
- 
-        <!-- Post body — 800px centered column matching portfolio/testimonial width -->
-        <div class="portfolio-container post-content">
- 
-            {{ content }}
- 
-            <!-- CTA -->
-            <div class="post-cta">
-                <a href="https://forms.gle/pMivuTUEFkA3d7G77" class="btn">Tell me how I can help!</a>
+
+            <!-- Post body — 800px centered column, inside .container just like
+                 the portfolio section on the homepage, so widths align correctly -->
+            <div class="portfolio-container post-content">
+
+                {{ content }}
+
+                <!-- CTA -->
+                <div class="post-cta">
+                    <a href="/#get-started" class="btn">Tell me how I can help!</a>
+                </div>
+
             </div>
- 
+
         </div>
- 
+
     </section>
- 
+
     <footer>
         <div class="container" style="text-align: left;">
             <address style="font-style: normal; margin-bottom: 12px; line-height: 1.8;">
@@ -76,7 +79,7 @@
             <p>&copy; {{ 'now' | date: "%Y" }} From the Sound Up.</p>
         </div>
     </footer>
- 
+
     <script>
         function initializeNavigation() {
             const hamburger = document.querySelector('.hamburger');
@@ -98,7 +101,6 @@
             initializeNavigation();
         }
     </script>
- 
+
 </body>
 </html>
- 
