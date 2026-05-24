@@ -899,6 +899,25 @@ footer {
 
 /* Post body text — inherits global p styles, no override needed */
 
+/* Bullet and numbered lists in post content —
+   browser defaults were stripped by the global * reset,
+   so we restore sensible indentation and spacing here. */
+.post-content ul,
+.post-content ol {
+    padding-left: 1.5em;
+    margin-bottom: var(--spacing-lg);
+}
+
+.post-content li {
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.6;
+}
+
+.post-content li:last-child {
+    margin-bottom: 0;
+}
+
+
 /* Post images — full width of content column, light rounding */
 .post-content img {
     width: 100%;
