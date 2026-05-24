@@ -951,7 +951,7 @@ footer {
     /* Tighten the gap between the h2 title and the start of body text on mobile */
     .post-content {
         margin-top: var(--spacing-md);
-        padding: var(--spacing-md);
+        padding: var(--spacing-md) 0;
     }
 
     .post-content h3 {
