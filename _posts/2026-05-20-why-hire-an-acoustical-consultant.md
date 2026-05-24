@@ -6,7 +6,7 @@ description: Read about why it's worth it to hire an acoustical consultant in Wi
 image: /blogassets/Joslyn.JPG
 ---
 
-Recently, a condo property manager in Winnipeg got in touch with me to ask for help with a noise problem. Residents were complaining that the building's multi-purpose room got so noisy that some guests would leave events early and others wouldn't come at all. They were particularly worried that senior residents with hearing loss were feeling excluded and were missing out on social opportunities.
+A condo property manager in Winnipeg got in touch with me to ask for help with a noise problem. Residents were complaining that the building's multi-purpose room got so noisy that some guests would leave events early and others wouldn't come at all. They were particularly worried that senior residents with hearing loss were feeling excluded and were missing out on social opportunities.
 
 When I called the property manager back, one of the first questions I asked was "Why did you decide to call me?" I like to ask this question because often, people get in touch with me after trying to solve their noise problem some other way, and it's helpful to know what they've already tried. 
 
