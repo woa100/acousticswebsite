@@ -46,7 +46,7 @@ The industrial style has its roots in SoHo and Brooklyn in NYC but has spread ar
 
 ### Minimal Look, Maximal Sound
 
-A parallel trend has been the rise of minimalism. Minimalism, with its clean lines and sparsh furnishings (if there are furnishings at all), may be calm visually but can be chaotic sonically. Like the Industrial Style, Minimalism's materials are hard and sound-reflecting, so sound energy simply builds up in the space.  As a result, Minimalist cafes and restaurants can sound cold, echo-y and uninviting when there are just a few customers and chaotic when they become full of customers.
+A parallel trend has been the rise of minimalism. Minimalism, with its clean lines and sparse furnishings (if there are furnishings at all), may be calm visually but can be chaotic sonically. Like the Industrial Style, Minimalism's materials are hard and sound-reflecting, so sound energy simply builds up in the space.  As a result, Minimalist cafes and restaurants can sound cold, echo-y and uninviting when there are just a few customers and chaotic when they become full of customers.
 
 ![Equate Coffee, Singapore](/blogassets/equatecoffee_photo-equate.jpg)
 
@@ -77,7 +77,7 @@ The good acoustics at Nonsuch are thanks to its unique interior design, which do
 
 Before the rise of Industrial and Minimalist design trends, restaurant, cafe and bar acoustics were just fine thanks to the ubiquitous acoustic tile ceiling. No acoustical design help was needed! 
 
-But today, it's not obvious how to integrate sound-absorbing finishes into more contemporary design styles. I've seen lots of restaurants, cafes and bars rush to install acoustical materials after opening, and the results can look clunky. Whether it's thought about during the planning and design stage or fixed after opening, there will be questions of what type of product to add, where to locate it so that it's actually effective, and how much of it to add. 
+But today, it's not obvious how to integrate sound-absorbing finishes into more contemporary design styles. I've seen lots of restaurants, cafes and bars rush to install acoustical materials after opening and the results can look clunky. Whether it's thought about during the planning and design stage or fixed after opening, there will be questions of what type of product to add, where to locate it so that it's actually effective, and how much of it to add. 
 
 I can help answer these questions. I care a lot about how an acoustical solution looks as well as how it sounds (not to mention how much it's going to cost), and love collaborating with architects and interior designers to find a solution that enhances the overall experience in the space.
 
