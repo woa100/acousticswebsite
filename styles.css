@@ -917,7 +917,6 @@ footer {
     margin-bottom: 0;
 }
 
-
 /* Post images — full width of content column, light rounding */
 .post-content img {
     width: 100%;
@@ -956,5 +955,125 @@ footer {
 
     .post-content h3 {
         font-size: 1.2rem;
+    }
+}
+
+
+/* ==========================================================================
+   BLOG LANDING PAGE STYLES
+   ========================================================================== */
+
+/* Landing page section — same top clearance logic as .post */
+.blog-landing {
+    padding-top: calc(var(--spacing-header) + (var(--section-spacing) * 2.5));
+    padding-bottom: var(--spacing-3xl);
+    background-color: var(--color-white);
+}
+
+/* Stacked list of post cards */
+.blog-post-list {
+    margin-top: var(--spacing-xl);
+    max-width: var(--portfolio-container-max-width);
+}
+
+/* Individual post card */
+.blog-card {
+    margin-bottom: var(--spacing-xxl);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background-color: var(--color-white);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.blog-card:hover {
+    transform: var(--transform-hover);
+    box-shadow: var(--shadow-card);
+}
+
+/* Card image — fixed height, covers the area */
+.blog-card-image-link {
+    display: block;
+    text-decoration: none;
+}
+
+.blog-card-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Gray placeholder when no image is provided */
+.blog-card-placeholder {
+    width: 100%;
+    height: 220px;
+    background-color: var(--color-bg-light);
+}
+
+/* Card text content area */
+.blog-card-body {
+    padding: var(--spacing-lg) var(--spacing-xl);
+}
+
+/* Card title — linked, no underline by default */
+.blog-card-title {
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-bold);
+    margin-top: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.3;
+}
+
+.blog-card-title a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.blog-card-title a:hover {
+    text-decoration: underline;
+}
+
+.blog-card-title a:visited {
+    color: var(--color-primary);
+}
+
+/* Excerpt text */
+.blog-card-excerpt {
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+    color: var(--color-primary);
+}
+
+/* Read more link */
+.blog-read-more {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.blog-read-more:hover {
+    text-decoration: underline;
+}
+
+.blog-read-more:visited {
+    color: var(--color-accent);
+}
+
+/* Mobile adjustments for blog landing */
+@media screen and (max-width: 768px) {
+    .blog-landing {
+        padding-top: calc(90px + var(--section-spacing));
+    }
+
+    .blog-card-img,
+    .blog-card-placeholder {
+        height: 180px;
+    }
+
+    .blog-card-body {
+        padding: var(--spacing-md);
     }
 }
