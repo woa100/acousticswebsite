@@ -2,6 +2,7 @@ title: From the Sound Up
 description: Acoustical Consulting
 url: "https://www.fromthesoundup.com"
 permalink: /:year/:month/:day/:title/
- 
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
