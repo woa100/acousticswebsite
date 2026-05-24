@@ -36,7 +36,7 @@ Some restaurants with this 'classic' look and feel still exist, their original d
 
 But acoustic tile ceilings, wall to wall carpet and booth seating fell out of fashion. 
 
-Loft living and the rise of post-industrial preservation and restoration made taller ceilings desirable and it became acceptable, even stylish, to expose ducts and conduit in the room. I lived in downtown NYC for ten years and watched as cosy, grungy dive bars, many of them with black-painted acoustic tile ceilings and beaten-up upholstered booths, closed down and were replaced by new bars with concrete, reclaimed wood and steel pipes forming the material palette. All of those materials are hard, dense and nonporous, reflecting sound waves back into the room where they build up into a reverberant cacaphony. 
+Loft living and the rise of post-industrial preservation and restoration made taller ceilings desirable and it became acceptable, even stylish, to expose ducts and conduit in the room. I lived in downtown NYC for ten years and watched as cosy, grungy dive bars, many of them with black-painted acoustic tile ceilings and beaten-up upholstered booths, closed down and were replaced by new bars with concrete, reclaimed wood and steel pipes forming the material palette. All of those materials are hard, dense and nonporous, reflecting sound waves back into the room where they build up into a reverberant cacophony. 
 
 ![The Junction Craft Brewery, Toronto](/blogassets/junctiontoronto_photo-stevenevans.jpg)
 
