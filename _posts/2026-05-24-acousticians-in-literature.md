@@ -12,11 +12,11 @@ So where are all of the acousticians in fiction?
 
 ### Arkady Apollonovich Sempleyarov
 
+The only fictional acoustician I'm aware of is Arkady Apollonovich Sempleyarov, the Chairman of the Acoustics Commission of Moscow Theatres in Master and Margarita, Mikhail Bugakov's supernatural satire of Soviet society.
+
 ![Master and Margarita](/blogassets/masterandmargarita_fullsize.jpg)
 
-Master and Margarita by Mikhail Bugakov
-
-The only fictional acoustician I'm aware of is Arkady Apollonovich Sempleyarov, the Chairman of the Acoustics Commission of Moscow Theatres in Master and Margarita, Mikhail Bugakov's supernatural satire of Soviet society.
+*Master and Margarita* by Mikhail Bugakov
 
 Arkady Apollonovich's appearance in the book is brief. He shows up in the audience of a magic show, where he heckles the magician, demanding he expose his tricks, and is then humiliated when another audience member exposes the acoustician's own 'magic trick' with a touring actress. An argument breaks out Arkady Apollonovich ends up getting cracked on the head--twice--by an incensed relative's "short, stubby, lilac umbrella." 
 
