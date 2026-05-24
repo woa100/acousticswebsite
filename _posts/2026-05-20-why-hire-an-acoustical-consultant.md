@@ -3,7 +3,7 @@ layout: post
 title: Why Hire an Acoustical Consultant?
 date: 2026-05-20
 description: Read about why it's worth it to hire an acoustical consultant in Winnipeg.
-image: /blogassets/junctiontoronto_photo-stevenevans.jpg
+image: /blogassets/Joslyn.JPG
 ---
 
 Recently, a condo property manager in Winnipeg got in touch with me to ask for help with a noise problem. Residents were complaining that the building's multi-purpose room got so noisy that some guests would leave events early and others wouldn't come at all. They were particularly worried that senior residents with hearing loss were feeling excluded and were missing out on social opportunities.
