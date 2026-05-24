@@ -18,7 +18,7 @@ Le Colonial Restaurant, Winnipeg
 
 Over the past couple of decades, cafes, restaurants, bars and breweries have been getting noisier and noisier. No wonder it was so hard for me to think of a place to go for quiet and privacy!
 
-In some places, it's by design. In New York City, for example, the price of real estate is so high that restaurants need to turn over tables as fast as possible, and one way of doing that is [keeping the noise level high](https://www.tripadvisor.ca/Restaurant_Review-g293974-d1917089-Reviews-Panoramic_Restaurant-Istanbul.html) so diners can't relax and instead just eat, pay and leave.
+In some places, it's by design. In New York City, for example, the price of real estate is so high that restaurants need to turn over tables as fast as possible, and one way of doing that is [keeping the noise level high](https://www.nytimes.com/2012/07/20/nyregion/in-new-york-city-indoor-noise-goes-unabated.html?_r=1&pagewanted=all) so diners can't relax and instead just eat, pay and leave.
 
 ### From Cosy to Chaotic
 
