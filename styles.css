@@ -925,7 +925,7 @@ footer {
     /* On mobile the logo wraps to two lines, making the header ~90px tall instead of 70px.
        Increase the px value if you need more space below the header, decrease for less. */
     .post {
-        padding-top: calc(90px + (var(--section-spacing) * 2));
+        padding-top: calc(90px + (var(--section-spacing) * 1));
     }
 
     /* Tighten the gap between the h2 title and the start of body text on mobile */
