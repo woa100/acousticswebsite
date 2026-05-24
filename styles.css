@@ -974,6 +974,8 @@ footer {
 .blog-post-list {
     margin-top: var(--spacing-xl);
     max-width: var(--portfolio-container-max-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Individual post card */
@@ -983,12 +985,6 @@ footer {
     border-radius: var(--radius-md);
     overflow: hidden;
     background-color: var(--color-white);
-    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
-}
-
-.blog-card:hover {
-    transform: var(--transform-hover);
-    box-shadow: var(--shadow-card);
 }
 
 /* Card image — fixed height, covers the area */
