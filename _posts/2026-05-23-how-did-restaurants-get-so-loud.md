@@ -56,11 +56,11 @@ Equate Coffee, Singapore (photo: Equate Coffee)
 
 A noisy restaurant might sound like success. A loud crowd signals a lot of customers. But too much noise can be a problem and there are lots of benefits to controlling the noise with good acoustical design:
 A calmer restaurant environment:
-1. Is more inclusive, providing a comfortable environment for people who are sensitive to noise (like my nephew) and people with hearing loss, including seniors.
-2. Reduces stress for wait staff.
-3. Improves communication between patrons and staff.
-4. Attracts loyal regulars.
-5. Has a more 'premium' feeling.
+* Is more inclusive, providing a comfortable environment for people who are sensitive to noise (like my nephew) and people with hearing loss, including seniors.
+* Reduces stress for wait staff.
+* Improves communication between patrons and staff.
+* Attracts loyal regulars.
+* Has a more 'premium' feeling.
 
 ### A Local Shoutout
 
