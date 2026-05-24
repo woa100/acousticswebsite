@@ -935,12 +935,6 @@ footer {
         padding: var(--spacing-md);
     }
 
-    /* On mobile, constrain the portfolio-container to 90% width so it matches the
-       .container holding the title above it — fixing both the box width and title alignment. */
-    .portfolio-container {
-        width: 90%;
-    }
-
     .post-content h3 {
         font-size: 1.2rem;
     }
