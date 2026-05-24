@@ -3,6 +3,7 @@ layout: post
 title: How Did Restaurants Get So Loud?
 date: 2026-05-23
 description: How did restaurants, cafes and bars get noisier and how can an acoustical consultant help?
+image: /blogassets/junctiontoronto_photo-stevenevans.jpg
 ---
 
 Recently a friend asked me to find a place in Winnipeg where we could sit and have a conversation about a sensitive topic. We needed privacy but also wanted to feel relaxed. I imagined a quiet cafe or restaurant, but not so quiet that other guests would be able to overhear our conversation. 
