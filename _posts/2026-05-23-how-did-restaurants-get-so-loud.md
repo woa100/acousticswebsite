@@ -8,7 +8,7 @@ image: /blogassets/junctiontoronto_photo-stevenevans.jpg
 
 Recently a friend asked me to find a place in Winnipeg where we could sit and have a conversation about a sensitive topic. We needed privacy but also wanted to feel relaxed. I imagined a quiet cafe or restaurant, but not so quiet that other guests would be able to overhear our conversation. 
 
-It was hard to think of a place because so many of my normal spots can get noisy and don't have great privacy. I finally found a family-run Vietnamese restaurant in Saint Boniface I'd never been to - Le Colonial - with review photos showing an acoustic tile ceiling and upholstered furniture. It was a good pick. The vibe was relaxed and calm and there were just enough other people dining there to add some 'babble' background noise, giving us the privacy we needed. The conversation went really well and I have the restaurant acoustics to thank. 
+It was hard to think of a place because so many of my normal spots can get noisy and don't have great privacy. I finally found a family-run Vietnamese restaurant in Saint Boniface I'd never been to—--Le Colonial—--with review photos showing an acoustic tile ceiling and upholstered furniture. It was a good pick. The vibe was relaxed and calm and there were just enough other people dining there to add some 'babble' background noise, giving us the privacy we needed. The conversation went really well and I have the restaurant acoustics to thank. 
 
 ![Le Colonial Restaurant, Winnipeg](/blogassets/lecolonial.jpg)
 
