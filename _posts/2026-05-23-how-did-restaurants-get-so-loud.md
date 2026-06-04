@@ -63,13 +63,13 @@ A calmer restaurant environment:
 * Attracts loyal regulars.
 * Has a more 'premium' feeling.
 
-### A Local Shoutout
+### Another Local Shoutout
 
 ![Nonsuch Brewing Co, Winnipeg](/blogassets/nonsuch_photo-nonsuch.jpg)
 
 Nonsuch Brewing Co, Winnipeg (photo: Nonsuch Brewing Co)
 
-As I was writing this entry, one Winnipeg restaurant came to mind for how good its sound environment is: Nonsuch Brewery in the Exchange District. I love going to Nonsuch on special occasions because it feels both lively and intimate. There's a nice buzz when the restaurant is full but I can also have a quiet conversation and don't have to raise my voice.
+As I was writing this entry, another Winnipeg restaurant came to mind for how good its sound environment is: Nonsuch Brewery in the Exchange District. I love going to Nonsuch on special occasions because it feels both lively and intimate. There's a nice buzz when the restaurant is full but I can also have a quiet conversation and don't have to raise my voice.
 
 The good acoustics at Nonsuch are thanks to its unique interior design, which doesn't slavishly follow one design trend or another but creatively combines elements of different styles: it has exposed ducts and metal pendant lamps reminiscent of the Industrial style, but it's also full of retro chic textiles that absorb sound: wall-to-wall thin-pile carpet in the main dining room, big area rugs in the lounge, velour-upholstered seating and even curtains. Some of these elements are more effective at absorbing sound than others but together, they are effective at controlling the noise buildup and creating a cosy yet dynamic vibe.
 
