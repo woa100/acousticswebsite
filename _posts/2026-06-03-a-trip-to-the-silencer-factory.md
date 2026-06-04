@@ -52,7 +52,7 @@ I learned that Price recently updated its FCU line to include better internal so
 
 ### Are Your Ducts Old and Tired?
 
-![Price's Great Wall of Diffusers](/blogassets/price_11.JPG)
+![Price's Great Wall of Diffusers](/blogassets/price_05.JPG)
 
 Price's Great Wall of Diffusers
 
