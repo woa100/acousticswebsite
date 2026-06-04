@@ -34,7 +34,7 @@ Price's silencer demonstration room
 
 The most enlightening (and fun) part of visiting Price was listening to the product demonstration mockups in their R&D showroom. I am used to selecting products out of their catalogue (and their competitors' catalogues) based on numerical test data, but nothing beats actually hearing the products in action and comparing them to each other. It was striking to me just how much more effective some products are than others at reducing noise. It's something I'd always known looking at the catalogue numbers, but it felt more real hearing it demonstrated. 
 
-### Louvers for Days
+### I Love Louvers
 
 ![Two acoustical louvers](/blogassets/price_04.JPG)
 
