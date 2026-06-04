@@ -3,10 +3,10 @@ layout: post
 title: A Trip to the Silencer Factory
 date: 2026-06-03
 description: An Acoustical Consultant in Winnipeg's Duct Noise Control Wonderland
-image: /blogassets/junctiontoronto_photo-stevenevans.jpg
+image: /blogassets/price_12.JPG
 ---
 
-When I started my career as an acoustical consultant in the US, I had no idea that Winnipeg, my hometown, was home to not one but *multiple* companies that manufacture acoustical products. 
+When I started my career as an acoustical consultant back in the US, I had no idea that Winnipeg, my hometown, was home to not one but *multiple* companies that manufacture acoustical products. 
 
 As an independent consultant, I give building owners, property managers and contractors different options for where to source acoustical products, and it's nice to be able to provide not only made-in-Canada options but made-in-Winnipeg options. 
 
