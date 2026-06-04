@@ -36,7 +36,7 @@ The most enlightening (and fun) part of visiting Price was listening to the prod
 
 ### Louvers for Days
 
-![Two acoustical louvers](/blogassets/price_12.JPG)
+![Two acoustical louvers](/blogassets/price_04.JPG)
 
 Two acoustical louvers
 
@@ -52,13 +52,21 @@ I learned that Price recently updated its FCU line to include better internal so
 
 ### Are Your Ducts Old and Tired?
 
-![Price's Great Wall of Diffusers](/blogassets/price_12.JPG)
+![Price's Great Wall of Diffusers](/blogassets/price_11.JPG)
 
 Price's Great Wall of Diffusers
 
 After strolling through Price's beautiful R&D lab and gazing at its 'Great Wall of Diffusers', I couldn't help but recall one of my favourite movie opening scenes. Terry Gilliam's 1985 dystopian caper 'Brazil' begins with a television commercial advertising the latest trends in duct designs. Then there's a big explosion and the movie title, rendered in shocking pink and blue neon, rotates onto the screen accompanied by screeching strings and brass. My trip to Price of course ended less dramatically - I was sent on my way with a handshake, two cute stickers and a bag of gummy snacks. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K9gO01pyv24?si=kpFApOF9rpkituPJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/K9gO01pyv24?si=kpFApOF9rpkituPJ"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ### How I Can Help
 
