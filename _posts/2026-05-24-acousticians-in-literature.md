@@ -6,13 +6,13 @@ description: Are there any acousticians portrayed in literature, theatre or cine
 image: /blogassets/masterandmargarita.jpg
 ---
 
-Literature, theatre and cinema count many architects and musicians among its heroic and tragic characters. In 12 Angry Men, an architect saves an innocent teenaged boy from prison time by persuading his fellow jurors to agree on a not guilty verdict. In Fearless, an architect helps a fellow plane crash survivor confront the trauma of losing her baby. Fictional musicians are too numerous to list. 
+Literature, theatre and cinema count many engineers, architects and musicians among its heroic and tragic characters. Rudyard Kipling's *The Bridge Builders* dramatizes the engineering of a monumental bridge across the Ganges. In Sidney Lumet's *12 Angry Men*, an architect saves an innocent boy from prison by persuading fellow jurors to agree on a not guilty verdict. Fictional musicians are too numerous to list.
 
-So where are all of the acousticians in fiction?
+So where are all of the acousticians in fiction? We, who bridge the worlds of engineering, architecture *and* music!
 
 ### Arkady Apollonovich Sempleyarov
 
-The only fictional acoustician I'm aware of is Arkady Apollonovich Sempleyarov, the Chairman of the Acoustics Commission of Moscow Theatres in Master and Margarita, Mikhail Bugakov's supernatural satire of Soviet society.
+Sadly, the only fictional acoustician I'm aware of is Arkady Apollonovich Sempleyarov, the Chairman of the Acoustics Commission of Moscow Theatres in Master and Margarita, Mikhail Bugakov's supernatural satire of Soviet society.
 
 ![Master and Margarita](/blogassets/masterandmargarita_fullsize.jpg)
 
