@@ -20,11 +20,7 @@ Sadly, the only fictional acoustician I'm aware of is Arkady Apollonovich Semple
 
 Arkady Apollonovich's appearance in the book is brief. He shows up in the audience of a magic show, where he heckles the magician, demanding he expose his tricks, and is then humiliated when another audience member exposes the acoustician's own 'magic trick' with a touring actress. An argument breaks out Arkady Apollonovich ends up getting cracked on the head--twice--by an incensed relative's "short, stubby, lilac umbrella." 
 
-Bulgakov's portrayal of Arkady Apollonovich is not particularly flattering. The character's only function seems to be to embody the bloat of the Soviet bureaucracy and the corruption and pretensions of its minor functionaries. While the Acoustics Commission of Moscow Theatres was fictional, commentator Jan Vanhellemont [suspects](https://www.masterandmargarita.eu/en/03karakters/semplejarov.html) Bulgakov based the organization on the Directorate for Theatre Enterprises belonging to the People's Commissariat of Enlightenment, a bureaucratic organization that controlled and censored the arts in the Soviet Union.
-
-!["Kill the Bribe" 1920s Anti-corruption Poster](/blogassets/killthebribe-1920s_photo-SovietVisuals.jpg)
-
-"Kill the Bribe" 1920s Anti-corruption Poster - courtesy [Soviet Visuals]([https://www.masterandmargarita.eu/en/03karakters/semplejarov.html](https://www.facebook.com/sovietvisuals))
+Bulgakov's portrayal of Arkady Apollonovich is not particularly flattering. The character's only function seems to be to embody the bloat of the Soviet bureaucracy and the corruption and pretensions of its minor functionaries. While the Acoustics Commission of Moscow Theatres was fictional, Master and Margarita archivist and commentator Jan Vanhellemont [suspects](https://www.masterandmargarita.eu/en/03karakters/semplejarov.html) Bulgakov based the organization on the Directorate for Theatre Enterprises belonging to the People's Commissariat of Enlightenment, a bureaucratic organization that controlled and censored the arts in the Soviet Union.
 
 ### Are There Any Others?
 
