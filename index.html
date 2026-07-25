@@ -813,42 +813,58 @@ meta: |
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Person",
-      "name": "Willem Boning",
-      "jobTitle": "Acoustical Consultant",
+      "@type": "ProfessionalService",
+      "@id": "https://www.fromthesoundup.com/#business",
+      "name": "From the Sound Up",
+      "description": "Building acoustics and noise control consulting based in Winnipeg, serving clients in Canada, the United States and worldwide. Specializing in noise control, reverberation control, soundproofing, sound dampening and environmental noise for commercial spaces, offices, retail, restaurants, live music venues, worship spaces and cultural spaces.",
       "url": "https://www.fromthesoundup.com",
+      "telephone": "+1-204-558-6216",
+      "email": "willem@fromthesoundup.com",
       "image": "https://www.fromthesoundup.com/willem_portrait.jpeg",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "From the Sound Up",
-        "url": "https://www.fromthesoundup.com"
-      },
-      "homeLocation": {
-        "@type": "Place",
-        "name": "Winnipeg, Manitoba, Canada"
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "113-216 Princess St",
+        "addressLocality": "Winnipeg",
+        "addressRegion": "MB",
+        "postalCode": "R3B-0X9",
+        "addressCountry": "CA"
       },
       "areaServed": [
-        {
-          "@type": "Place",
-          "name": "Canada"
-        },
-        {
-          "@type": "Place",
-          "name": "NYC"
-        },
-        {
-          "@type": "Place",
-          "name": "New York City"
-        },
-        {
-          "@type": "Place",
-          "name": "United States"
-        },
-        {
-          "@type": "Place",
-          "name": "Worldwide"
-        }
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Place", "name": "Worldwide" }
       ],
+      "founder": { "@id": "https://www.fromthesoundup.com/#willem" },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Acoustical Consulting Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Single Consult",
+              "description": "A short call to help you get started solving a building noise problem."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Project Support",
+              "description": "Acoustical consulting for building design projects, fitting into multi-phase design and construction project teams."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "On-Call Support",
+              "description": "Ongoing acoustical consulting support for architects, property managers and developers under a master services agreement."
+            }
+          }
+        ]
+      },
       "sameAs": [
         "https://www.linkedin.com/in/willem-boning/",
         "https://www.instagram.com/acousticaleye/",
@@ -856,28 +872,17 @@ meta: |
       ]
     },
     {
-      "@type": "Organization",
-      "name": "From the Sound Up",
+      "@type": "Person",
+      "@id": "https://www.fromthesoundup.com/#willem",
+      "name": "Willem Boning",
+      "jobTitle": "Acoustical Consultant",
       "url": "https://www.fromthesoundup.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Winnipeg",
-        "addressRegion": "MB",
-        "addressCountry": "Canada"
-      },
-      "areaServed": [
-        {
-          "@type": "Place",
-          "name": "Canada"
-        },
-        {
-          "@type": "Place",
-          "name": "United States"
-        },
-        {
-          "@type": "Place",
-          "name": "Worldwide"
-        }
+      "image": "https://www.fromthesoundup.com/willem_portrait.jpeg",
+      "worksFor": { "@id": "https://www.fromthesoundup.com/#business" },
+      "sameAs": [
+        "https://www.linkedin.com/in/willem-boning/",
+        "https://www.instagram.com/acousticaleye/",
+        "https://fromthesoundup.tumblr.com/"
       ]
     }
   ]
