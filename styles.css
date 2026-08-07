@@ -889,6 +889,7 @@ footer {
     box-shadow: var(--shadow-card);
     width: calc(33.33% - var(--spacing-lg));
     overflow: hidden;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 /* Card image */
@@ -917,6 +918,11 @@ footer {
     text-align: left;
     margin-bottom: var(--spacing-sm);
     line-height: 1.3;
+}
+
+.insight-card:hover {
+    transform: var(--transform-service-hover);
+    box-shadow: 0 8px 25px var(--shadow-light);
 }
 
 /* "Read more insights here" line below the cards */
