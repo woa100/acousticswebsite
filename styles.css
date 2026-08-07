@@ -1146,7 +1146,8 @@ footer {
     color: var(--color-primary);
 }
 
-/* Read more link */
+/* Shared "Read more" link style — used by insight cards, blog cards, and service boxes */
+.read-more-link,
 .blog-read-more {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-semibold);
@@ -1154,13 +1155,16 @@ footer {
     text-decoration: none;
 }
 
+.read-more-link:hover,
 .blog-read-more:hover {
     text-decoration: underline;
 }
 
+.read-more-link:visited,
 .blog-read-more:visited {
     color: var(--color-accent);
 }
+
 
 /* Mobile adjustments for blog landing */
 @media screen and (max-width: 768px) {
