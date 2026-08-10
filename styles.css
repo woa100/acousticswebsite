@@ -74,8 +74,8 @@
     --transition-fast: 0.3s ease;
     --transition-smooth: 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smooth dropdown animation */
     --transition-medium: 0.6s ease-in-out;
-    --transform-hover: translateY(-5px);
-    --transform-service-hover: translateY(-5px);
+    --transform-hover: translateY(-7px);
+    --transform-service-hover: translateY(-10px);
     
     /* Shadow System */
     --shadow-header: 0 2px 15px var(--shadow-light);
@@ -442,6 +442,17 @@ section {
     width: calc(33.33% - var(--spacing-lg));
     margin-bottom: 0;
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    position: relative; /* positioning context for the stretched-link overlay below */
+}
+
+/* Stretched link: expands the box's single "Read more" link to cover
+   the entire .service-box, so clicking anywhere in the box navigates,
+   while the visible link text/underline/hover behavior is unchanged.
+   Relies on .service-box having only one link inside it. */
+.service-box .read-more-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
 }
 
 .service-box:hover {
