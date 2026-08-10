@@ -480,10 +480,6 @@ section {
     transition: transform var(--transition-fast);
 }
 
-.about-img:hover {
-    transform: scale(1.02);
-}
-
 .about-img img {
     width: 100%;
     display: block;
