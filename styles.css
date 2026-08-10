@@ -74,8 +74,8 @@
     --transition-fast: 0.3s ease;
     --transition-smooth: 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smooth dropdown animation */
     --transition-medium: 0.6s ease-in-out;
-    --transform-hover: translateY(-7px);
-    --transform-service-hover: translateY(-10px);
+    --transform-hover: translateY(-5px);
+    --transform-service-hover: translateY(-5px);
     
     /* Shadow System */
     --shadow-header: 0 2px 15px var(--shadow-light);
