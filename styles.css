@@ -813,6 +813,11 @@ footer {
         font-size: 1.4rem;
     }
 
+   /* Hero small text drops to default paragraph size on mobile */
+    p.herotextsmall {
+        font-size: var(--font-size-base);
+    }
+
     /* Featured Section Mobile Adjustments */
     .featured-project-inner p,
     .featured-quote-inner p {
