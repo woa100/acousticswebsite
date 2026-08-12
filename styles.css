@@ -44,12 +44,12 @@
     --font-weight-bold: 700;
     
     /* Font Size Scale */
-    --font-size-h1: 3.8rem;
+    --font-size-h1: 3.6rem;
     --font-size-h2: 2.5rem;
     --font-size-h3: 1.8rem;
     --font-size-h4: 1.1rem;
     --font-size-base: 1rem;
-    --font-size-herosmall: 1.2rem;
+    --font-size-herosmall: 1.1rem;
     --font-size-small: 0.9rem;
     --font-size-caption: 0.9rem;
     --font-size-logo: 1.5rem;
@@ -428,6 +428,7 @@ section {
 p.herotextsmall {
     font-size: var(--font-size-herosmall);
     color: var(--color-primary);
+    font-weight: var(--front-weight-semibold);
 }
 
 
