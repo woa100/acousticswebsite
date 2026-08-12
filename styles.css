@@ -5,17 +5,6 @@
 
 
 /* ==========================================================================
-   HERO ACCENT FONT — "Qwitcher Grypen" (Google Font)
-   Used ONLY by the .accent-font class, applied to "from the sound up." in
-   the H1 on index.html.
-   TO REVERT: delete this @import block, delete the .accent-font rule
-   (search "ACCENT FONT RULE" below), and remove class="accent-font" from
-   the <em> tag in index.html. Nothing else on the site depends on this.
-   ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
-
-
-/* ==========================================================================
    CSS CUSTOM PROPERTIES (VARIABLES)
    ========================================================================== */
 
@@ -55,7 +44,7 @@
     --font-weight-bold: 700;
     
     /* Font Size Scale */
-    --font-size-h1: 3.6rem;
+    --font-size-h1: 3.2rem;
     --font-size-h2: 2.5rem;
     --font-size-h3: 1.8rem;
     --font-size-h4: 1.1rem;
@@ -440,15 +429,6 @@ p.herotextsmall {
     font-size: var(--font-size-herosmall);
     color: var(--color-primary);
     font-weight: var(--front-weight-semibold);
-}
-
-/* ACCENT FONT RULE — applies Qwitcher Grypen to "from the sound up." in the
-   H1 only. Size/weight/color are left alone so all other H1 formatting
-   (from the h1 rule + inherited color) is retained unchanged.
-   TO REVERT: delete this rule and the @import at the top of the file, then
-   remove class="accent-font" from the <em> in index.html. */
-.accent-font {
-    font-family: 'Qwitcher Grypen', cursive;
 }
 
 
