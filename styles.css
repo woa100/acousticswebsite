@@ -19,7 +19,7 @@
     --color-bg-accent: #e6eef5;            /* Light blue background */
     --color-accent: #3a6ea5;               /* Accent blue */
     --color-white: #ffffff;
-    --color-caption: #696969;              /* Gray caption text */
+    --color-caption: #1a1a1a;              /* Dark charcoal */
     --color-border: #ddd;                  /* Light border */
     
     /* Interactive Element Colors */
@@ -44,13 +44,14 @@
     --font-weight-bold: 700;
     
     /* Font Size Scale */
-    --font-size-h1: 4.2rem;
+    --font-size-h1: 3.8rem;
     --font-size-h2: 2.5rem;
     --font-size-h3: 1.8rem;
     --font-size-h4: 1.1rem;
     --font-size-base: 1rem;
+    --font-size-herosmall: 1.3rem;
     --font-size-small: 0.9rem;
-    --font-size-caption: 0.8rem;
+    --font-size-caption: 0.9rem;
     --font-size-logo: 1.5rem;
     --font-size-featured: 1.7rem;
     
@@ -422,6 +423,11 @@ section {
     height: 100%;
     background-color: var(--overlay-light);
     z-index: 1;
+}
+
+p.herotextsmall {
+    font-size: var(--font-size-herosmall);
+    color: var(--color-primary);
 }
 
 
