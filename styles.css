@@ -704,13 +704,13 @@ p.herotextsmall {
     right: var(--spacing-sm);
 }
 
-/* Carousel Indicators */
+/* Carousel Indicators (hidden) */
 .carousel-indicators {
+    display: none;
     position: absolute;
     bottom: var(--spacing-sm);
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
     gap: 8px;
     z-index: 10;
 }
