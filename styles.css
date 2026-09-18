@@ -799,6 +799,12 @@ footer {
         flex-direction: column;
         gap: var(--spacing-lg);
     }
+    /* Aboust Section Image Mobile Layout: Crop the About portrait to a square on mobile (desktop keeps original ratio) */
+    .about-img img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        object-position: center;
+    }
 
     /* Typography Mobile Adjustments */
     h1 {
