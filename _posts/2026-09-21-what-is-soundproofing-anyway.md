@@ -22,7 +22,7 @@ To educate myself on what soundproofing means, I did a web search for the term. 
 
 ![Waterproof fabric](/blogassets/waterproof_CC_birchlandinghome.jpg)
 
-A waterproof fabric is completely impenetrable to water. Is a soundproofed room completely impermeable to sound? Image: Birch Landing Home / Creative Commons
+A waterproof fabric. Image: Birch Landing Home / Creative Commons
 
 My conclusion from the web search was that soundproofing is ambiguous as a technical term but very effective as a marketing term because it rolls off the tongue and seems to promise a perfect solution. A waterproof jacket is completely impenetrable to water, so by the same logic a soundproofed room should be completely impenetrable to outside sound. The promise of 'proofing' is misleading, however, because completely preventing the transmission of all sound energy from one space to another is effectively impossible. Doing so in theory would require building one room levitating inside another room, with no structural coupling at all, and could not have any door or other opening, so it would be impossible to enter or exit.
 
