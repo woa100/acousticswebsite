@@ -3,7 +3,7 @@ layout: post
 title: What is Soundproofing Anyway?
 date: 2026-09-21
 description: Unpacking a Confusing Acoustical Product Marketing Term
-image: /blogassets/A.jpeg
+image: /blogassets/soundproof-collage.jpg
 ---
 
 ![A soundproofing marketing collage](/blogassets/soundproof-collage.jpg)
